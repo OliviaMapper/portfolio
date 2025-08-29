@@ -1,59 +1,29 @@
 /* =========================
    Custom Colors
    ========================= */
-.bg-darkgreen {
-  background-color: #01382a;
-}
+.bg-darkgreen { background-color: #01382a; }
+.border-darkgreen { border-color: #01382a; }
 
-.border-darkgreen {
-  border-color: #01382a;
-}
-
-/* =========================
-   Portfolio Item Styles
-   ========================= */
+/* Portfolio Item */
 .portfolio-item {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.portfolio-item:hover { transform: translateY(-4px); box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); }
+.portfolio-item img { transition: transform 0.3s ease, opacity 0.3s ease; }
+.portfolio-item img:hover { transform: scale(1.02); opacity: 0.95; }
 
-.portfolio-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-}
+/* Lightbox */
+#lightbox { display: none; position: fixed; inset: 0; background-color: rgba(0,0,0,0.9); z-index:50; flex-align:center; justify-content:center; padding:1rem; }
+#lightbox img { max-height:80vh; max-width:100%; object-fit:contain; border-radius:.5rem; box-shadow:0 0 30px rgba(0,0,0,0.7); }
+#lightboxCaption { margin-top:1.5rem; text-align:center; max-width:700px; }
+#lightboxTitle { color:#fa8072; }
+#lightboxDescription { color:#d1d5db; }
 
-/* Image hover for subtle zoom */
-.portfolio-item img {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
+/* Lightbox Buttons */
+#prevProject, #nextProject { position:absolute; top:50%; transform:translateY(-50%); font-size:2rem; color:white; background:rgba(0,0,0,0.3); padding:.5rem 1rem; border-radius:.25rem; cursor:pointer; opacity:0; transition:opacity .3s ease; }
+#prevProject:hover, #nextProject:hover { opacity:1; background:rgba(0,0,0,0.5); }
+#prevProject { left:0; } #nextProject { right:0; }
+#lightbox > div > .group:hover #prevProject, #lightbox > div > .group:hover #nextProject { opacity:1; }
 
-.portfolio-item img:hover {
-  transform: scale(1.02);
-  opacity: 0.95;
-}
-
-/* =========================
-   Lightbox Styles
-   ========================= */
-#lightbox {
-  display: none; /* JS will toggle 'hidden' class */
-  position: fixed;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 50;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-
-#lightbox img {
-  max-height: 80vh;
-  max-width: 100%;
-  object-fit: contain;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 30px rgba(0,0,0,0.7);
-}
-
-#lightboxCaption {
-  margin-top: 1.5rem;
-  text-align: center;
+/* Responsive */
+@media (max-width:768px){ #prevProject, #nextProject{ font-size:1.5rem; padding:.25rem .5rem; } }

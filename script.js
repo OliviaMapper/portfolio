@@ -1,66 +1,46 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const portfolioItems = document.querySelectorAll(".portfolio-item");
+  const items = document.querySelectorAll(".portfolio-item");
   const lightbox = document.getElementById("lightbox");
-  const lightboxImage = document.getElementById("lightboxImage");
-  const lightboxTitle = document.getElementById("lightboxTitle");
-  const lightboxDescription = document.getElementById("lightboxDescription");
-  const closeLightbox = document.getElementById("closeLightbox");
-  const prevButton = document.getElementById("prevProject");
-  const nextButton = document.getElementById("nextProject");
+  const img = document.getElementById("lightboxImage");
+  const title = document.getElementById("lightboxTitle");
+  const desc = document.getElementById("lightboxDescription");
+  const closeBtn = document.getElementById("closeLightbox");
+  const prevBtn = document.getElementById("prevProject");
+  const nextBtn = document.getElementById("nextProject");
 
   let currentIndex = -1;
 
-  function openLightbox(index) {
-    const item = portfolioItems[index];
-    const image = item.getAttribute("data-image");
-    const title = item.getAttribute("data-title");
-    const description = item.getAttribute("data-description");
-
-    lightboxImage.src = image;
-    lightboxTitle.textContent = title;
-    lightboxDescription.textContent = description;
-
+  function openLightbox(i) {
+    const item = items[i];
+    img.src = item.dataset.image;
+    title.textContent = item.dataset.title;
+    desc.textContent = item.dataset.description;
     lightbox.classList.remove("hidden");
-    currentIndex = index;
+    currentIndex = i;
   }
 
-  function close() {
+  function closeLightboxFunc() {
     lightbox.classList.add("hidden");
     currentIndex = -1;
   }
 
-  function showNext() {
-    if (currentIndex < portfolioItems.length - 1) {
-      openLightbox(currentIndex + 1);
-    } else {
-      openLightbox(0);
-    }
+  function next() {
+    openLightbox((currentIndex + 1) % items.length);
   }
 
-  function showPrev() {
-    if (currentIndex > 0) {
-      openLightbox(currentIndex - 1);
-    } else {
-      openLightbox(portfolioItems.length - 1);
-    }
+  function prev() {
+    openLightbox((currentIndex - 1 + items.length) % items.length);
   }
 
-  portfolioItems.forEach((item, index) => {
-    item.addEventListener("click", () => openLightbox(index));
-  });
-
-  closeLightbox.addEventListener("click", close);
-  nextButton.addEventListener("click", showNext);
-  prevButton.addEventListener("click", showPrev);
-
-  lightbox.addEventListener("click", (e) => {
-    if (e.target === lightbox) close();
-  });
-
-  document.addEventListener("keydown", (e) => {
-    if (currentIndex === -1) return;
-    if (e.key === "Escape") close();
-    if (e.key === "ArrowRight") showNext();
-    if (e.key === "ArrowLeft") showPrev();
+  items.forEach((item, i) => item.addEventListener("click", () => openLightbox(i)));
+  closeBtn.addEventListener("click", closeLightboxFunc);
+  nextBtn.addEventListener("click", next);
+  prevBtn.addEventListener("click", prev);
+  lightbox.addEventListener("click", e => { if(e.target===lightbox) closeLightboxFunc(); });
+  document.addEventListener("keydown", e => {
+    if(currentIndex === -1) return;
+    if(e.key === "Escape") closeLightboxFunc();
+    if(e.key === "ArrowRight") next();
+    if(e.key === "ArrowLeft") prev();
   });
 });
