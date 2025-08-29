@@ -1,138 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Olivia Napper | Portfolio</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olivia Napper | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-darkgreen text-white font-sans">
+<body class="bg-[#01382a] text-white font-sans">
 
-<header class="bg-darkgreen/90 shadow-md p-6 fixed top-0 w-full z-50 backdrop-blur-md border-b border-darkgreen/70">
-  <div class="max-w-6xl mx-auto flex justify-between items-center">
-    <h1 class="text-2xl font-bold" style="color: #fa8072;">Olivia Napper</h1>
-    <nav class="space-x-6">
-      <a href="#portfolio" class="hover:text-gray-300">Portfolio</a>
-      <a href="#about" class="hover:text-gray-300">About</a>
-      <a href="#contact" class="hover:text-gray-300">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<section class="text-center pt-32 pb-16 px-6">
-  <h2 class="text-5xl md:text-7xl font-light mb-6" style="color: #fa8072;">Olivia Napper</h2>
-  <p class="text-xl text-gray-300 max-w-2xl mx-auto italic">
-    Creating beautiful, meaningful experiences through thoughtful design and visual storytelling.
-  </p>
-</section>
-
-<!-- Portfolio Section -->
-<section id="portfolio" class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-
-  <!-- Project 1 -->
-  <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl border border-darkgreen/60 bg-darkgreen/80"
-       data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg"
-       data-title="Africa Water Loss"
-       data-description="Evaporative water loss in Africa and floating solar panels.">
-    <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg"
-         alt="Africa Water Loss"
-         class="w-full h-auto max-h-72 object-contain rounded-lg transition-transform duration-300 hover:scale-105">
-    <div class="p-4">
-      <h3 class="text-xl font-medium mb-1" style="color:#fa8072;">Data Dashboard</h3>
-      <p class="text-gray-300">Interactive visualization of water loss data.</p>
+  <!-- Header -->
+  <header class="bg-[#01382a] shadow-md p-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold" style="color: #fa8072;">Olivia Napper</h1>
+      <nav class="space-x-6">
+        <a href="#portfolio" class="hover:text-gray-300">Portfolio</a>
+        <a href="#about" class="hover:text-gray-300">About</a>
+        <a href="#contact" class="hover:text-gray-300">Contact</a>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <!-- Project 2 -->
-  <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl border border-darkgreen/60 bg-darkgreen/80"
-       data-image="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg"
-       data-title="Web Design"
-       data-description="Responsive website design with focus on user experience.">
-    <img src="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg"
-         alt="Darfur Violence"
-         class="w-full h-auto max-h-72 object-contain rounded-lg transition-transform duration-300 hover:scale-105">
-    <div class="p-4">
-      <h3 class="text-xl font-medium mb-1" style="color:#fa8072;">Web Design</h3>
-      <p class="text-gray-300">Responsive website design with focus on user experience.</p>
+  <!-- Hero -->
+  <section class="text-center py-16 px-6">
+    <h2 class="text-4xl font-bold mb-4" style="color: #fa8072;">Welcome to My Portfolio</h2>
+    <p class="text-gray-300 max-w-2xl mx-auto">
+      I’m a geographer, cartographer, and data visualization expert passionate about the power of maps and design to tell stories.
+    </p>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section id="portfolio" class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+
+    <!-- Project 1 -->
+    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+         data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg"
+         data-title="Africa Water Loss"
+         data-description="Evaporative water loss in Africa and floating solar panels."
+         data-link="https://example.com/project1">
+      <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg"
+           alt="Africa Water Loss"
+           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
+      <div class="p-2 text-center">
+        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Data Dashboard</h3>
+        <p class="text-sm text-gray-300">Interactive visualization of water loss data.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Project 3 -->
-  <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl border border-darkgreen/60 bg-darkgreen/80"
-       data-image="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg"
-       data-title="Geospatial Analysis"
-       data-description="Mapping global humanitarian funding shortfalls.">
-    <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg"
-         alt="Humanitarian Funding"
-         class="w-full h-auto max-h-72 object-contain rounded-lg transition-transform duration-300 hover:scale-105">
-    <div class="p-4">
-      <h3 class="text-xl font-medium mb-1" style="color:#fa8072;">Geospatial Analysis</h3>
-      <p class="text-gray-300">Mapping global humanitarian funding shortfalls.</p>
+    <!-- Project 2 -->
+    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+         data-image="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg"
+         data-title="Web Design"
+         data-description="Responsive website design with focus on user experience."
+         data-link="https://example.com/project2">
+      <img src="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg"
+           alt="Darfur Violence"
+           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
+      <div class="p-2 text-center">
+        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Web Design</h3>
+        <p class="text-sm text-gray-300">Responsive website design with focus on user experience.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Project 4 -->
-  <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl border border-darkgreen/60 bg-darkgreen/80"
-       data-image="images/mobile-app.jpg"
-       data-title="Mobile App"
-       data-description="iOS app interface design with intuitive navigation.">
-    <img src="images/mobile-app.jpg"
-         alt="Mobile App"
-         class="w-full h-auto max-h-72 object-contain rounded-lg transition-transform duration-300 hover:scale-105">
-    <div class="p-4">
-      <h3 class="text-xl font-medium mb-1" style="color:#fa8072;">Mobile App</h3>
-      <p class="text-gray-300">iOS app interface design with intuitive navigation.</p>
+    <!-- Project 3 -->
+    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+         data-image="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg"
+         data-title="Geospatial Analysis"
+         data-description="Mapping global humanitarian funding shortfalls."
+         data-link="https://example.com/project3">
+      <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg"
+           alt="Humanitarian Funding"
+           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
+      <div class="p-2 text-center">
+        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Geospatial Analysis</h3>
+        <p class="text-sm text-gray-300">Mapping global humanitarian funding shortfalls.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Project 5 -->
-  <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl border border-darkgreen/60 bg-darkgreen/80"
-       data-image="images/packaging.jpg"
-       data-title="Packaging"
-       data-description="Product packaging design for premium consumer goods.">
-    <img src="images/packaging.jpg"
-         alt="Packaging Design"
-         class="w-full h-auto max-h-72 object-contain rounded-lg transition-transform duration-300 hover:scale-105">
-    <div class="p-4">
-      <h3 class="text-xl font-medium mb-1" style="color:#fa8072;">Packaging</h3>
-      <p class="text-gray-300">Product packaging design for premium consumer goods.</p>
+    <!-- Project 4 -->
+    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+         data-image="images/mobile-app.jpg"
+         data-title="Mobile App"
+         data-description="iOS app interface design with intuitive navigation."
+         data-link="https://example.com/project4">
+      <img src="images/mobile-app.jpg"
+           alt="Mobile App"
+           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
+      <div class="p-2 text-center">
+        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Mobile App</h3>
+        <p class="text-sm text-gray-300">iOS app interface design with intuitive navigation.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Project 6 -->
-  <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl border border-darkgreen/60 bg-darkgreen/80"
-       data-image="images/data-visualization.jpg"
-       data-title="Data Visualization"
-       data-description="Interactive charts and infographic design.">
-    <img src="images/data-visualization.jpg"
-         alt="Data Visualization"
-         class="w-full h-auto max-h-72 object-contain rounded-lg transition-transform duration-300 hover:scale-105">
-    <div class="p-4">
-      <h3 class="text-xl font-medium mb-1" style="color:#fa8072;">Data Visualization</h3>
-      <p class="text-gray-300">Interactive charts and infographic design.</p>
+    <!-- Project 5 -->
+    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+         data-image="images/packaging.jpg"
+         data-title="Packaging"
+         data-description="Product packaging design for premium consumer goods."
+         data-link="https://example.com/project5">
+      <img src="images/packaging.jpg"
+           alt="Packaging Design"
+           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
+      <div class="p-2 text-center">
+        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Packaging</h3>
+        <p class="text-sm text-gray-300">Product packaging design for premium consumer goods.</p>
+      </div>
     </div>
-  </div>
 
-</section>
+    <!-- Project 6 -->
+    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+         data-image="images/data-visualization.jpg"
+         data-title="Data Visualization"
+         data-description="Interactive charts and infographic design."
+         data-link="https://example.com/project6">
+      <img src="images/data-visualization.jpg"
+           alt="Data Visualization"
+           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
+      <div class="p-2 text-center">
+        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Data Visualization</h3>
+        <p class="text-sm text-gray-300">Interactive charts and infographic design.</p>
+      </div>
+    </div>
 
-<!-- About -->
-<section id="about" class="py-20 px-6 bg-darkgreen/80 text-center">
-  <h2 class="text-4xl font-light mb-8" style="color: #fa8072;">About Me</h2>
-  <p class="text-gray-300 leading-relaxed text-lg italic mb-6">
-    I'm a visual designer passionate about creating meaningful connections between brands and their audiences through thoughtful, strategic design.
-  </p>
-</section>
+  </section>
 
-<!-- Contact -->
-<section id="contact" class="py-20 px-6 bg-darkgreen/90 text-center">
-  <h2 class="text-3xl font-bold mb-6" style="color: #fa8072;">Get in Touch</h2>
-  <a href="mailto:hello@example.com" class="inline-block bg-[#fa8072] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#ff9889] transition-colors">
-    Email Me
-  </a>
-</section>
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto text-center py-16 px-6">
+    <h2 class="text-3xl font-bold mb-6" style="color: #fa8072;">About Me</h2>
+    <p class="text-gray-300">
+      I’m passionate about creating clear, effective visualizations and maps that help decision-makers act quickly and confidently. 
+      With experience in government and international organizations, I thrive at the intersection of design, data, and geography.
+    </p>
+  </section>
 
-<!-- Lightbox -->
+  <!-- Contact Section -->
+  <section id="contact" class="bg-[#014f36] py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6" style="color: #fa8072;">Get in Touch</h2>
+      <p class="text-gray-300 mb-6">Feel free to reach out for collaborations or just a friendly hello!</p>
+      <a href="mailto:youremail@example.com" 
+         class="inline-block bg-[#fa8072] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#ff9889] transition-colors">
+        Email Me
+      </a>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
 <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-6">
   <div class="relative max-w-6xl w-full max-h-full flex flex-col items-center">
 
@@ -169,11 +182,10 @@
     <div id="lightboxCaption" class="mt-6 text-center max-w-3xl">
       <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
       <p id="lightboxDescription" class="text-gray-300"></p>
+      <!-- Visit Project button will be added dynamically by script.js if data-link exists -->
     </div>
   </div>
 </div>
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

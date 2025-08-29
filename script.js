@@ -8,6 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const prevBtn = document.getElementById("prevProject");
   const nextBtn = document.getElementById("nextProject");
 
+  // Create Visit Project button dynamically
+  let visitBtn = document.createElement("a");
+  visitBtn.id = "lightboxVisit";
+  visitBtn.target = "_blank";
+  visitBtn.className = "inline-block mt-4 px-4 py-2 bg-[#fa8072] text-white rounded hover:bg-[#ff9889] transition-colors";
+  visitBtn.textContent = "Visit Project";
+  document.getElementById("lightboxCaption").appendChild(visitBtn);
+
   let currentIndex = -1;
 
   function openLightbox(i) {
@@ -15,12 +23,22 @@ document.addEventListener("DOMContentLoaded", () => {
     img.src = item.dataset.image;
     title.textContent = item.dataset.title;
     desc.textContent = item.dataset.description;
+
+    if (item.dataset.link) {
+      visitBtn.href = item.dataset.link;
+      visitBtn.style.display = "inline-block";
+    } else {
+      visitBtn.style.display = "none";
+    }
+
     lightbox.classList.remove("hidden");
+    document.body.style.overflow = "hidden";
     currentIndex = i;
   }
 
   function closeLightboxFunc() {
     lightbox.classList.add("hidden");
+    document.body.style.overflow = "";
     currentIndex = -1;
   }
 
