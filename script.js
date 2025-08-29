@@ -45,10 +45,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Portfolio item clicks
   portfolioItems.forEach((item, index) => {
     item.addEventListener("click", () => openLightbox(index));
   });
 
-  // Button clicks
-  closeLightbox.addEve
+  closeLightbox.addEventListener("click", close);
+  nextButton.addEventListener("click", showNext);
+  prevButton.addEventListener("click", showPrev);
+
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) close();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (currentIndex === -1) return;
+    if (e.key === "Escape") close();
+    if (e.key === "ArrowRight") showNext();
+    if (e.key === "ArrowLeft") showPrev();
+  });
+});

@@ -1,208 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
-
-body {
-    font-family: 'Inter', sans-serif;
+/* =========================
+   Custom Colors
+   ========================= */
+.bg-darkgreen {
+  background-color: #01382a;
 }
 
-h1, h2, h3 {
-    font-family: 'Faustina', serif;
+.border-darkgreen {
+  border-color: #01382a;
 }
 
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.6s ease-out;
-}
-
-.fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
+/* =========================
+   Portfolio Item Styles
+   ========================= */
 .portfolio-item {
-    transition: all 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .portfolio-item:hover {
-    transform: translateY(-5px);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
-.nav-link {
-    position: relative;
-    transition: color 0.3s ease;
+/* Image hover for subtle zoom */
+.portfolio-item img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.nav-link::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: #fa8072;
-    transition: width 0.3s ease;
+.portfolio-item img:hover {
+  transform: scale(1.02);
+  opacity: 0.95;
 }
 
-.nav-link:hover::after,
-.nav-link.active::after {
-    width: 100%;
-}
-
-.nav-link:hover {
-    color: #fa8072 !important;
-}
-
-.contact-link:hover {
-    color: #ff9999 !important;
-}
-
-.smooth-scroll {
-    scroll-behavior: smooth;
-}
-
-/* Lightbox styles */
+/* =========================
+   Lightbox Styles
+   ========================= */
 #lightbox {
-    backdrop-filter: blur(4px);
-    animation: fadeIn 0.3s ease-out;
+  display: none; /* JS will toggle 'hidden' class */
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
 
-#lightbox.hidden {
-    animation: fadeOut 0.3s ease-out;
+#lightbox img {
+  max-height: 80vh;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
-}
-
-#lightboxImage {
-    animation: scaleIn 0.3s ease-out;
-}
-
-@keyframes scaleIn {
-    from {
-        transform: scale(0.9);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
-
-body {
-    font-family: 'Inter', sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: 'Faustina', serif;
-}
-
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.6s ease-out;
-}
-
-.fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.portfolio-item {
-    transition: all 0.3s ease;
-}
-
-.portfolio-item:hover {
-    transform: translateY(-5px);
-}
-
-.nav-link {
-    position: relative;
-    transition: color 0.3s ease;
-}
-
-.nav-link::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: #fa8072;
-    transition: width 0.3s ease;
-}
-
-.nav-link:hover::after,
-.nav-link.active::after {
-    width: 100%;
-}
-
-.nav-link:hover {
-    color: #fa8072 !important;
-}
-
-.contact-link:hover {
-    color: #ff9999 !important;
-}
-
-.smooth-scroll {
-    scroll-behavior: smooth;
-}
-
-/* Lightbox styles */
-#lightbox {
-    backdrop-filter: blur(4px);
-    animation: fadeIn 0.3s ease-out;
-}
-
-#lightbox.hidden {
-    animation: fadeOut 0.3s ease-out;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
-}
-
-#lightboxImage {
-    animation: scaleIn 0.3s ease-out;
-}
-
-@keyframes scaleIn {
-    from {
-        transform: scale(0.9);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
+#lightboxCaption {
+  margin-top: 1.5rem;
+  text-align: center;
