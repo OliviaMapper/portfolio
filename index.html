@@ -1,175 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olivia Napper</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olivia Napper – Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="text-gray-100 smooth-scroll" style="background-color: #01382a;">
-    <!-- Navigation -->
-    <nav class="fixed top-0 w-full backdrop-blur-md z-50 border-b" style="background-color: rgba(1, 56, 42, 0.9); border-color: rgba(1, 56, 42, 0.7);">
-        <div class="max-w-6xl mx-auto px-6 py-4">
-            <div class="flex justify-between items-center">
-                <div class="text-2xl font-semibold" style="color: #fa8072;">Portfolio</div>
-                <div class="flex space-x-8">
-                    <a href="#portfolio" class="nav-link text-gray-300 font-medium">Portfolio</a>
-                    <a href="#about" class="nav-link text-gray-300 font-medium">About</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+<body class="bg-[#002922] text-white font-sans">
 
-    <!-- Hero Section -->
-    <section class="pt-24 pb-16 px-6">
-        <div class="max-w-6xl mx-auto text-center">
-            <h1 class="text-5xl md:text-7xl font-light mb-6 fade-in" style="color: #fa8072;">
-                Olivia Napper
-            </h1>
-            <p class="text-xl text-gray-300 max-w-2xl mx-auto fade-in italic">
-                Creating beautiful, meaningful experiences through thoughtful design and visual storytelling.
-            </p>
-        </div>
-    </section>
+  <!-- Header -->
+  <header class="text-center py-12">
+    <h1 class="text-5xl font-bold" style="color: #fa8072;">Olivia Napper</h1>
+    <p class="text-lg text-gray-300 mt-4">Geographer · Cartographer · Data Visualization Expert</p>
+  </header>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="py-20 px-6">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-light text-center mb-16 fade-in" style="color: #fa8072;">Selected Work</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Portfolio Item 1 -->
-                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-[8.5/11] overflow-hidden">
-                        <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Evaporative Water Loss in Africa and How Floating Solar Panels on Reservoirs Could Help" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Brand Identity</h3>
-                        <p class="text-gray-300">Complete visual identity system for a modern tech startup</p>
-                    </div>
-                </div>
-
-                <!-- Portfolio Item 2 -->
-                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-[11/8.5] overflow-hidden">
-                        <img src="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg" alt="Web Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Web Design</h3>
-                        <p class="text-gray-300">Responsive website design with focus on user experience</p>
-                    </div>
-                </div>
-
-                <!-- Portfolio Item 3 -->
-                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-[8.5/11] overflow-hidden">
-                        <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Print Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Print Design</h3>
-                        <p class="text-gray-300">Editorial layout and print collateral design</p>
-                    </div>
-                </div>
-
-                <!-- Portfolio Item 4 -->
-                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-[11/8.5] overflow-hidden">
-                        <img src="images/mobile-app.jpg" alt="Mobile App Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Mobile App</h3>
-                        <p class="text-gray-300">iOS app interface design with intuitive navigation</p>
-                    </div>
-                </div>
-
-                <!-- Portfolio Item 5 -->
-                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-[8.5/11] overflow-hidden">
-                        <img src="images/packaging.jpg" alt="Packaging Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Packaging</h3>
-                        <p class="text-gray-300">Product packaging design for premium consumer goods</p>
-                    </div>
-                </div>
-
-                <!-- Portfolio Item 6 -->
-                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-[11/8.5] overflow-hidden">
-                        <img src="images/data-visualization.jpg" alt="Data Visualization Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Data Visualization</h3>
-                        <p class="text-gray-300">Interactive charts and infographic design</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="py-20 px-6" style="background-color: rgba(1, 56, 42, 0.8);">
-        <div class="max-w-4xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div class="fade-in">
-                    <h2 class="text-4xl font-light mb-8" style="color: #fa8072;">About Me</h2>
-                    <div class="space-y-6 text-gray-300 leading-relaxed text-lg">
-                        <p class="italic">
-                            I'm a visual designer passionate about creating meaningful connections between brands and their audiences through thoughtful, strategic design.
-                        </p>
-                        <p>
-                            With over 5 years of experience in brand identity, web design, and print media, I believe great design should not only look beautiful but also solve real problems and tell compelling stories.
-                        </p>
-                        <p>
-                            When I'm not designing, you can find me exploring new coffee shops, hiking local trails, or experimenting with analog photography.
-                        </p>
-                    </div>
-                    
-                    <div class="mt-8 flex space-x-6">
-                        <a href="mailto:hello@example.com" class="contact-link font-medium transition-colors underline decoration-dotted" style="color: #fa8072;">
-                            Get in touch
-                        </a>
-                        <a href="#" class="text-gray-300 hover:text-gray-200 transition-colors underline decoration-dotted">
-                            Download CV
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="fade-in">
-                    <div class="aspect-square rounded-lg flex items-center justify-center border" style="background: linear-gradient(to bottom right, rgba(1, 56, 42, 0.9), rgba(1, 56, 42, 0.7)); border-color: rgba(1, 56, 42, 0.6);">
-                        <svg class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24" style="color: #fa8072;">
-                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="py-12 px-6 text-white" style="background-color: #000f0b;">
-        <div class="max-w-6xl mx-auto text-center">
-            <p class="text-gray-500 italic">© 2024 Visual Portfolio. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Lightbox Modal -->
-    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-4">
-        <div class="relative max-w-4xl max-h-full">
-            <button id="closeLightbox" class="absolute -top-12 right-0 text-white text-2xl hover:text-gray-300 transition-colors">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-            </button>
-            <img id="lightboxImage" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl">
-            <div id="lightboxCaption" class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 text-white">
-                <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
-                <p id="lightboxDescription" class="text-gray-300"></p>
-            </div>
-        </div>
+  <!-- Portfolio Grid -->
+  <main class="max-w-6xl mx-auto px-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    
+    <!-- Portfolio Item -->
+    <div class="portfolio-item overflow-hidden rounded-lg shadow-lg hover:shadow-xl border cursor-pointer"
+         style="background-color: rgba(1,56,42,0.8); border-color: rgba(1,56,42,0.6);"
+         data-title="Urban Growth Analysis"
+         data-description="Cartographic visualization of urban expansion over time using satellite imagery."
+         data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg">
+      <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Urban Growth Analysis" 
+           class="w-full h-72 object-cover md:h-80 lg:h-64">
+      <div class="p-6">
+        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Urban Growth Analysis</h3>
+        <p class="text-gray-300">Cartographic visualization of urban expansion over time.</p>
+      </div>
     </div>
 
-    <script src="script.js"></script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'976f77dad3faf24a',t:'MTc1NjUwNjM2Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+    <!-- Another Portfolio Item -->
+    <div class="portfolio-item overflow-hidden rounded-lg shadow-lg hover:shadow-xl border cursor-pointer"
+         style="background-color: rgba(1,56,42,0.8); border-color: rgba(1,56,42,0.6);"
+         data-title="Climate Impact Maps"
+         data-description="A series of maps showing the effects of climate change on coastal regions."
+         data-image="images/project2.jpg">
+      <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Climate Impact Maps" 
+           class="w-full h-72 object-cover md:h-80 lg:h-64">
+      <div class="p-6">
+        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Climate Impact Maps</h3>
+        <p class="text-gray-300">A series of maps showing the effects of climate change.</p>
+      </div>
+    </div>
+
+    <!-- Add more portfolio items here -->
+  </main>
+
+    <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-6">
+    <div class="relative max-w-6xl w-full max-h-full flex flex-col items-center">
+      
+      <!-- Close Button -->
+      <button id="closeLightbox" class="absolute -top-12 right-0 text-white text-2xl hover:text-gray-300 transition-colors">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+
+      <!-- Image + Arrows -->
+      <div class="flex items-center justify-center w-full relative">
+       <!-- Prev Button -->
+<button id="prevProject" class="absolute left-0 p-4 text-white text-3xl transition-opacity duration-300 opacity-0">
+  &#10094;
+</button>
+
+<!-- Next Button -->
+<button id="nextProject" class="absolute right-0 p-4 text-white text-3xl transition-opacity duration-300 opacity-0">
+  &#10095;
+</button>
+
+
+      <!-- Caption -->
+      <div id="lightboxCaption" class="mt-6 text-center">
+        <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
+        <p id="lightboxDescription" class="text-gray-300"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>

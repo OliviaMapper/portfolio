@@ -1,99 +1,54 @@
-// Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
-    });
-});
+document.addEventListener("DOMContentLoaded", () => {
+  const portfolioItems = document.querySelectorAll(".portfolio-item");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImage = document.getElementById("lightboxImage");
+  const lightboxTitle = document.getElementById("lightboxTitle");
+  const lightboxDescription = document.getElementById("lightboxDescription");
+  const closeLightbox = document.getElementById("closeLightbox");
+  const prevButton = document.getElementById("prevProject");
+  const nextButton = document.getElementById("nextProject");
 
-// Fade in animation on scroll
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-};
+  let currentIndex = -1;
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-        }
-    });
-}, observerOptions);
+  function openLightbox(index) {
+    const item = portfolioItems[index];
+    const image = item.getAttribute("data-image");
+    const title = item.getAttribute("data-title");
+    const description = item.getAttribute("data-description");
 
-document.querySelectorAll('.fade-in').forEach(el => {
-    observer.observe(el);
-});
+    lightboxImage.src = image;
+    lightboxTitle.textContent = title;
+    lightboxDescription.textContent = description;
 
-// Active navigation link highlighting
-window.addEventListener('scroll', () => {
-    const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('.nav-link');
-    
-    let current = '';
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop - 100;
-        if (window.scrollY >= sectionTop) {
-            current = section.getAttribute('id');
-        }
-    });
+    lightbox.classList.remove("hidden");
+    currentIndex = index;
+  }
 
-    navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === `#${current}`) {
-            link.classList.add('active');
-        }
-    });
-});
+  function close() {
+    lightbox.classList.add("hidden");
+    currentIndex = -1;
+  }
 
-// Lightbox functionality
-const lightbox = document.getElementById('lightbox');
-const lightboxImage = document.getElementById('lightboxImage');
-const lightboxTitle = document.getElementById('lightboxTitle');
-const lightboxDescription = document.getElementById('lightboxDescription');
-const closeLightbox = document.getElementById('closeLightbox');
-
-// Portfolio item click handlers with lightbox
-document.querySelectorAll('.portfolio-item').forEach(item => {
-    item.addEventListener('click', function() {
-        const img = this.querySelector('img');
-        const title = this.querySelector('h3').textContent;
-        const description = this.querySelector('p').textContent;
-        
-        if (img && img.src) {
-            lightboxImage.src = img.src;
-            lightboxImage.alt = img.alt;
-            lightboxTitle.textContent = title;
-            lightboxDescription.textContent = description;
-            lightbox.classList.remove('hidden');
-            document.body.style.overflow = 'hidden'; // Prevent background scrolling
-        }
-    });
-});
-
-// Close lightbox
-closeLightbox.addEventListener('click', () => {
-    lightbox.classList.add('hidden');
-    document.body.style.overflow = 'auto';
-});
-
-// Close lightbox when clicking outside the image
-lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox) {
-        lightbox.classList.add('hidden');
-        document.body.style.overflow = 'auto';
+  function showNext() {
+    if (currentIndex < portfolioItems.length - 1) {
+      openLightbox(currentIndex + 1);
+    } else {
+      openLightbox(0);
     }
-});
+  }
 
-// Close lightbox with Escape key
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
-        lightbox.classList.add('hidden');
-        document.body.style.overflow = 'auto';
+  function showPrev() {
+    if (currentIndex > 0) {
+      openLightbox(currentIndex - 1);
+    } else {
+      openLightbox(portfolioItems.length - 1);
     }
-});
+  }
+
+  // Portfolio item clicks
+  portfolioItems.forEach((item, index) => {
+    item.addEventListener("click", () => openLightbox(index));
+  });
+
+  // Button clicks
+  closeLightbox.addEve
