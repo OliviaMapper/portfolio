@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio: Olivia Napper</title>
+    <title>Olivia Napper</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -28,7 +28,7 @@
                 Olivia Napper
             </h1>
             <p class="text-xl text-gray-300 max-w-2xl mx-auto fade-in italic">
-                Cartographer and data visualization designer committed to delivering information more efficiently through visual storytelling.
+                Creating beautiful, meaningful experiences through thoughtful design and visual storytelling.
             </p>
         </div>
     </section>
@@ -41,8 +41,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Portfolio Item 1 -->
                 <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-square overflow-hidden">
-                        <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Brand Identity Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    <div class="aspect-[8.5/11] overflow-hidden">
+                        <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Evaporative Water Loss in Africa and How Floating Solar Panels on Reservoirs Could Help" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Brand Identity</h3>
@@ -52,8 +52,8 @@
 
                 <!-- Portfolio Item 2 -->
                 <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-square overflow-hidden">
-                        <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Web Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    <div class="aspect-[11/8.5] overflow-hidden">
+                        <img src="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg" alt="Web Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Web Design</h3>
@@ -63,8 +63,8 @@
 
                 <!-- Portfolio Item 3 -->
                 <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-square overflow-hidden">
-                        <img src="images/print-design.jpg" alt="Print Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    <div class="aspect-[8.5/11] overflow-hidden">
+                        <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Print Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Print Design</h3>
@@ -74,7 +74,7 @@
 
                 <!-- Portfolio Item 4 -->
                 <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-square overflow-hidden">
+                    <div class="aspect-[11/8.5] overflow-hidden">
                         <img src="images/mobile-app.jpg" alt="Mobile App Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
                     </div>
                     <div class="p-6">
@@ -85,7 +85,7 @@
 
                 <!-- Portfolio Item 5 -->
                 <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-square overflow-hidden">
+                    <div class="aspect-[8.5/11] overflow-hidden">
                         <img src="images/packaging.jpg" alt="Packaging Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
                     </div>
                     <div class="p-6">
@@ -96,7 +96,7 @@
 
                 <!-- Portfolio Item 6 -->
                 <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
-                    <div class="aspect-square overflow-hidden">
+                    <div class="aspect-[11/8.5] overflow-hidden">
                         <img src="images/data-visualization.jpg" alt="Data Visualization Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
                     </div>
                     <div class="p-6">
@@ -154,6 +154,22 @@
         </div>
     </footer>
 
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-4">
+        <div class="relative max-w-4xl max-h-full">
+            <button id="closeLightbox" class="absolute -top-12 right-0 text-white text-2xl hover:text-gray-300 transition-colors">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+            <img id="lightboxImage" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl">
+            <div id="lightboxCaption" class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 text-white">
+                <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
+                <p id="lightboxDescription" class="text-gray-300"></p>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'976f5ead469d33bd',t:'MTc1NjUwNTMzNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'976f77dad3faf24a',t:'MTc1NjUwNjM2Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

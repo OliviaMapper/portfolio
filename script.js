@@ -51,10 +51,49 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Portfolio item click handlers
+// Lightbox functionality
+const lightbox = document.getElementById('lightbox');
+const lightboxImage = document.getElementById('lightboxImage');
+const lightboxTitle = document.getElementById('lightboxTitle');
+const lightboxDescription = document.getElementById('lightboxDescription');
+const closeLightbox = document.getElementById('closeLightbox');
+
+// Portfolio item click handlers with lightbox
 document.querySelectorAll('.portfolio-item').forEach(item => {
     item.addEventListener('click', function() {
+        const img = this.querySelector('img');
         const title = this.querySelector('h3').textContent;
-        alert(`Opening ${title} project details...`);
+        const description = this.querySelector('p').textContent;
+        
+        if (img && img.src) {
+            lightboxImage.src = img.src;
+            lightboxImage.alt = img.alt;
+            lightboxTitle.textContent = title;
+            lightboxDescription.textContent = description;
+            lightbox.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
     });
+});
+
+// Close lightbox
+closeLightbox.addEventListener('click', () => {
+    lightbox.classList.add('hidden');
+    document.body.style.overflow = 'auto';
+});
+
+// Close lightbox when clicking outside the image
+lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+        lightbox.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+    }
+});
+
+// Close lightbox with Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+        lightbox.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+    }
 });
