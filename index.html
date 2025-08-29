@@ -3,83 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olivia Napper – Portfolio</title>
+  <title>Olivia Napper | Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-[#002922] text-white font-sans">
+<body class="bg-gray-900 text-white font-sans">
 
   <!-- Header -->
-  <header class="text-center py-12">
-    <h1 class="text-5xl font-bold" style="color: #fa8072;">Olivia Napper</h1>
-    <p class="text-lg text-gray-300 mt-4">Geographer · Cartographer · Data Visualization Expert</p>
+  <header class="bg-gray-800 shadow-md p-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold" style="color: #fa8072;">Olivia Napper</h1>
+      <nav class="space-x-6">
+        <a href="#portfolio" class="hover:text-gray-300">Portfolio</a>
+        <a href="#about" class="hover:text-gray-300">About</a>
+        <a href="#contact" class="hover:text-gray-300">Contact</a>
+      </nav>
+    </div>
   </header>
 
+  <!-- Hero -->
+  <section class="text-center py-16 px-6 bg-gray-900">
+    <h2 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h2>
+    <p class="text-gray-300 max-w-2xl mx-auto">
+      I’m a geographer, cartographer, and data visualization expert passionate about the power of maps and design to tell stories.
+    </p>
+  </section>
+
   <!-- Portfolio Grid -->
-  <main class="max-w-6xl mx-auto px-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+  <section id="portfolio" class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+
+    <!-- Project 1 -->
+    <div class="portfolio-item cursor-pointer"
+         data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg"
+         data-title="Data Dashboard"
+         data-description="An interactive data visualization dashboard built with D3.js and TailwindCSS.">
+      <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Africa Evaporative Water Loss" class="rounded-lg shadow-lg hover:opacity-90 transition-opacity">
+    </div>
+
+    <!-- Project 2 -->
+    <div class="portfolio-item cursor-pointer"
+         data-image="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg"
+         data-title="Geospatial Analysis"
+         data-description="A mapping project using Leaflet.js and Mapbox tiles to highlight global development indicators.">
+      <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="World Humanitarian Funding Shortfalls" class="rounded-lg shadow-lg hover:opacity-90 transition-opacity">
+    </div>
+
+    <!-- Project 3 -->
+    <div class="portfolio-item cursor-pointer"
+         data-image="https://picsum.photos/1200/800?random=3"
+         data-title="Portfolio Website"
+         data-description="This very portfolio site — designed with HTML, TailwindCSS, and JavaScript, hosted on GitHub Pages.">
+      <img src="https://picsum.photos/600/400?random=3" alt="Portfolio Website" class="rounded-lg shadow-lg hover:opacity-90 transition-opacity">
+    </div>
+
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto text-center py-16 px-6">
+    <h2 class="text-3xl font-bold mb-6" style="color: #fa8072;">About Me</h2>
+    <p class="text-gray-300">
+      I’m passionate about creating clear, effective visualizations and maps that help decision-makers act quickly and confidently. 
+      With experience in government and international organizations, I thrive at the intersection of design, data, and geography.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-800 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6" style="color: #fa8072;">Get in Touch</h2>
+      <p class="text-gray-300 mb-6">Feel free to reach out for collaborations or just a friendly hello!</p>
+      <a href="mailto:youremail@example.com" 
+         class="inline-block bg-[#fa8072] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#ff9889] transition-colors">
+        Email Me
+      </a>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+<div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-6">
+  <div class="relative max-w-6xl w-full max-h-full flex flex-col items-center">
     
-    <!-- Portfolio Item -->
-    <div class="portfolio-item overflow-hidden rounded-lg shadow-lg hover:shadow-xl border cursor-pointer"
-         style="background-color: rgba(1,56,42,0.8); border-color: rgba(1,56,42,0.6);"
-         data-title="Urban Growth Analysis"
-         data-description="Cartographic visualization of urban expansion over time using satellite imagery."
-         data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg">
-      <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Urban Growth Analysis" 
-           class="w-full h-72 object-cover md:h-80 lg:h-64">
-      <div class="p-6">
-        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Urban Growth Analysis</h3>
-        <p class="text-gray-300">Cartographic visualization of urban expansion over time.</p>
-      </div>
-    </div>
+    <!-- Close Button -->
+    <button id="closeLightbox" 
+            class="absolute -top-12 right-0 text-white text-2xl hover:text-gray-300 transition-colors"
+            aria-label="Close Lightbox">
+      ✕
+    </button>
 
-    <!-- Another Portfolio Item -->
-    <div class="portfolio-item overflow-hidden rounded-lg shadow-lg hover:shadow-xl border cursor-pointer"
-         style="background-color: rgba(1,56,42,0.8); border-color: rgba(1,56,42,0.6);"
-         data-title="Climate Impact Maps"
-         data-description="A series of maps showing the effects of climate change on coastal regions."
-         data-image="images/project2.jpg">
-      <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Climate Impact Maps" 
-           class="w-full h-72 object-cover md:h-80 lg:h-64">
-      <div class="p-6">
-        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Climate Impact Maps</h3>
-        <p class="text-gray-300">A series of maps showing the effects of climate change.</p>
-      </div>
-    </div>
-
-    <!-- Add more portfolio items here -->
-  </main>
-
-    <!-- Lightbox -->
-  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-6">
-    <div class="relative max-w-6xl w-full max-h-full flex flex-col items-center">
-      
-      <!-- Close Button -->
-      <button id="closeLightbox" class="absolute -top-12 right-0 text-white text-2xl hover:text-gray-300 transition-colors">
-        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-        </svg>
+    <!-- Image + Arrows -->
+    <div class="flex items-center justify-center w-full relative">
+      <!-- Prev -->
+      <button id="prevProject" 
+              class="absolute left-0 p-4 text-white text-3xl transition-opacity duration-300 opacity-0"
+              aria-label="Previous Project">
+        &#10094;
       </button>
 
-      <!-- Image + Arrows -->
-      <div class="flex items-center justify-center w-full relative">
-       <!-- Prev Button -->
-<button id="prevProject" class="absolute left-0 p-4 text-white text-3xl transition-opacity duration-300 opacity-0">
-  &#10094;
-</button>
+      <!-- Main Image -->
+      <img id="lightboxImage" src="" alt="" 
+           class="max-h-[70vh] object-contain rounded-lg shadow-2xl mx-auto">
 
-<!-- Next Button -->
-<button id="nextProject" class="absolute right-0 p-4 text-white text-3xl transition-opacity duration-300 opacity-0">
-  &#10095;
-</button>
+      <!-- Next -->
+      <button id="nextProject" 
+              class="absolute right-0 p-4 text-white text-3xl transition-opacity duration-300 opacity-0"
+              aria-label="Next Project">
+        &#10095;
+      </button>
+    </div>
 
-
-      <!-- Caption -->
-      <div id="lightboxCaption" class="mt-6 text-center">
-        <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
-        <p id="lightboxDescription" class="text-gray-300"></p>
-      </div>
+    <!-- Caption -->
+    <div id="lightboxCaption" class="mt-6 text-center max-w-3xl">
+      <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
+      <p id="lightboxDescription" class="text-gray-300"></p>
     </div>
   </div>
+</div>
 
+  <!-- JS -->
   <script src="script.js"></script>
 </body>
 </html>
