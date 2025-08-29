@@ -1,25 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Inter', sans-serif;
 }
 
-header {
-    text-align: center;
-    padding: 2rem 0;
-    background: #333;
-    color: #fff;
+.portfolio-item {
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
-main {
-    padding: 2rem;
-    max-width: 900px;
-    margin: auto;
+.portfolio-item:hover {
+    transform: translateY(-8px);
 }
 
-section {
-    margin-bottom: 2rem;
+.modal {
+    backdrop-filter: blur(10px);
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
