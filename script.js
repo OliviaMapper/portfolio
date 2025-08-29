@@ -4,17 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const img = document.getElementById("lightboxImage");
   const title = document.getElementById("lightboxTitle");
   const desc = document.getElementById("lightboxDescription");
+  const visitBtn = document.getElementById("lightboxVisit");
   const closeBtn = document.getElementById("closeLightbox");
   const prevBtn = document.getElementById("prevProject");
   const nextBtn = document.getElementById("nextProject");
-
-  // Create Visit Project button dynamically
-  let visitBtn = document.createElement("a");
-  visitBtn.id = "lightboxVisit";
-  visitBtn.target = "_blank";
-  visitBtn.className = "inline-block mt-4 px-4 py-2 bg-[#fa8072] text-white rounded hover:bg-[#ff9889] transition-colors";
-  visitBtn.textContent = "Visit Project";
-  document.getElementById("lightboxCaption").appendChild(visitBtn);
 
   let currentIndex = -1;
 
@@ -24,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     title.textContent = item.dataset.title;
     desc.textContent = item.dataset.description;
 
-    if (item.dataset.link) {
+    if(item.dataset.link){
       visitBtn.href = item.dataset.link;
       visitBtn.style.display = "inline-block";
     } else {
@@ -54,7 +47,13 @@ document.addEventListener("DOMContentLoaded", () => {
   closeBtn.addEventListener("click", closeLightboxFunc);
   nextBtn.addEventListener("click", next);
   prevBtn.addEventListener("click", prev);
-  lightbox.addEventListener("click", e => { if(e.target===lightbox) closeLightboxFunc(); });
+
+  // Close lightbox if clicked outside image
+  lightbox.addEventListener("click", e => {
+    if(e.target === lightbox) closeLightboxFunc();
+  });
+
+  // Keyboard navigation
   document.addEventListener("keydown", e => {
     if(currentIndex === -1) return;
     if(e.key === "Escape") closeLightboxFunc();

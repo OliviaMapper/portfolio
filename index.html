@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Olivia Napper | Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-[#01382a] text-white font-sans">
+<body class="bg-darkgreen text-white font-sans">
 
   <!-- Header -->
-  <header class="bg-[#01382a] shadow-md p-6">
+  <header class="shadow-md p-6">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <h1 class="text-2xl font-bold" style="color: #fa8072;">Olivia Napper</h1>
       <nav class="space-x-6">
@@ -23,7 +23,7 @@
 
   <!-- Hero -->
   <section class="text-center py-16 px-6">
-    <h2 class="text-4xl font-bold mb-4" style="color: #fa8072;">Welcome to My Portfolio</h2>
+    <h2 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h2>
     <p class="text-gray-300 max-w-2xl mx-auto">
       I’m a geographer, cartographer, and data visualization expert passionate about the power of maps and design to tell stories.
     </p>
@@ -31,97 +31,60 @@
 
   <!-- Portfolio Grid -->
   <section id="portfolio" class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-
-    <!-- Project 1 -->
-    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+    <!-- Example Projects -->
+    <div class="portfolio-item cursor-pointer" 
          data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg"
-         data-title="Africa Water Loss"
-         data-description="Evaporative water loss in Africa and floating solar panels."
-         data-link="https://example.com/project1">
-      <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg"
-           alt="Africa Water Loss"
-           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
-      <div class="p-2 text-center">
-        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Data Dashboard</h3>
-        <p class="text-sm text-gray-300">Interactive visualization of water loss data.</p>
-      </div>
+         data-title="Data Dashboard"
+         data-description="Interactive dashboard built with D3.js and TailwindCSS.">
+      <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Africa Evaporative Water Loss">
+      <h3>Data Dashboard</h3>
+      <p>Interactive dashboard built with D3.js</p>
     </div>
 
-    <!-- Project 2 -->
-    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+    <div class="portfolio-item cursor-pointer" 
          data-image="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg"
          data-title="Web Design"
-         data-description="Responsive website design with focus on user experience."
-         data-link="https://example.com/project2">
-      <img src="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg"
-           alt="Darfur Violence"
-           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
-      <div class="p-2 text-center">
-        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Web Design</h3>
-        <p class="text-sm text-gray-300">Responsive website design with focus on user experience.</p>
-      </div>
+         data-description="Responsive web project highlighting user experience.">
+      <img src="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg" alt="Darfur Violence Map">
+      <h3>Web Design</h3>
+      <p>Responsive web project</p>
     </div>
 
-    <!-- Project 3 -->
-    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+    <div class="portfolio-item cursor-pointer" 
          data-image="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg"
          data-title="Geospatial Analysis"
-         data-description="Mapping global humanitarian funding shortfalls."
-         data-link="https://example.com/project3">
-      <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg"
-           alt="Humanitarian Funding"
-           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
-      <div class="p-2 text-center">
-        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Geospatial Analysis</h3>
-        <p class="text-sm text-gray-300">Mapping global humanitarian funding shortfalls.</p>
-      </div>
+         data-description="Mapping project using Leaflet.js and Mapbox.">
+      <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Humanitarian Funding Map">
+      <h3>Geospatial Analysis</h3>
+      <p>Mapping project with Leaflet.js</p>
     </div>
 
-    <!-- Project 4 -->
-    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+    <div class="portfolio-item cursor-pointer" 
          data-image="images/mobile-app.jpg"
          data-title="Mobile App"
-         data-description="iOS app interface design with intuitive navigation."
-         data-link="https://example.com/project4">
-      <img src="images/mobile-app.jpg"
-           alt="Mobile App"
-           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
-      <div class="p-2 text-center">
-        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Mobile App</h3>
-        <p class="text-sm text-gray-300">iOS app interface design with intuitive navigation.</p>
-      </div>
+         data-description="iOS app interface design with intuitive navigation.">
+      <img src="images/mobile-app.jpg" alt="Mobile App Interface">
+      <h3>Mobile App</h3>
+      <p>iOS app interface design</p>
     </div>
 
-    <!-- Project 5 -->
-    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+    <div class="portfolio-item cursor-pointer" 
          data-image="images/packaging.jpg"
          data-title="Packaging"
-         data-description="Product packaging design for premium consumer goods."
-         data-link="https://example.com/project5">
-      <img src="images/packaging.jpg"
-           alt="Packaging Design"
-           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
-      <div class="p-2 text-center">
-        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Packaging</h3>
-        <p class="text-sm text-gray-300">Product packaging design for premium consumer goods.</p>
-      </div>
+         data-description="Product packaging design for premium consumer goods.">
+      <img src="images/packaging.jpg" alt="Packaging Design">
+      <h3>Packaging</h3>
+      <p>Product packaging design</p>
     </div>
 
-    <!-- Project 6 -->
-    <div class="portfolio-item cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-[#014f36]"
+    <div class="portfolio-item cursor-pointer" 
          data-image="images/data-visualization.jpg"
          data-title="Data Visualization"
-         data-description="Interactive charts and infographic design."
-         data-link="https://example.com/project6">
-      <img src="images/data-visualization.jpg"
-           alt="Data Visualization"
-           class="w-full h-auto object-contain rounded-t-lg transition-transform duration-300 hover:scale-105">
-      <div class="p-2 text-center">
-        <h3 class="text-lg font-medium mb-1" style="color:#fa8072;">Data Visualization</h3>
-        <p class="text-sm text-gray-300">Interactive charts and infographic design.</p>
-      </div>
+         data-description="Interactive charts and infographic design.">
+      <img src="images/data-visualization.jpg" alt="Data Visualization Project">
+      <h3>Data Visualization</h3>
+      <p>Charts & infographic design</p>
     </div>
-
   </section>
 
   <!-- About Section -->
@@ -134,7 +97,7 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="bg-[#014f36] py-16 px-6">
+  <section id="contact" class="bg-darkgreen py-16 px-6">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl font-bold mb-6" style="color: #fa8072;">Get in Touch</h2>
       <p class="text-gray-300 mb-6">Feel free to reach out for collaborations or just a friendly hello!</p>
@@ -146,46 +109,22 @@
   </section>
 
   <!-- Lightbox -->
-<div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-6">
-  <div class="relative max-w-6xl w-full max-h-full flex flex-col items-center">
-
-    <!-- Close Button -->
-    <button id="closeLightbox"
-            class="absolute -top-12 right-0 text-white text-3xl hover:text-gray-300 transition-colors"
-            aria-label="Close Lightbox">
-      ✕
-    </button>
-
-    <!-- Image + Navigation Arrows -->
-    <div class="flex items-center justify-center w-full relative">
-
-      <!-- Previous Button -->
-      <button id="prevProject"
-              class="absolute left-0 p-4 text-white text-4xl transition-opacity duration-300 opacity-70 hover:opacity-100 bg-black/30 rounded-r"
-              aria-label="Previous Project">
-        &#10094;
-      </button>
-
-      <!-- Main Image -->
-      <img id="lightboxImage" src="" alt=""
-           class="max-h-[80vh] w-auto object-contain rounded-lg shadow-2xl mx-auto">
-
-      <!-- Next Button -->
-      <button id="nextProject"
-              class="absolute right-0 p-4 text-white text-4xl transition-opacity duration-300 opacity-70 hover:opacity-100 bg-black/30 rounded-l"
-              aria-label="Next Project">
-        &#10095;
-      </button>
-    </div>
-
-    <!-- Caption -->
-    <div id="lightboxCaption" class="mt-6 text-center max-w-3xl">
-      <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
-      <p id="lightboxDescription" class="text-gray-300"></p>
-      <!-- Visit Project button will be added dynamically by script.js if data-link exists -->
+  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-6">
+    <div class="relative max-w-6xl w-full max-h-full flex flex-col items-center">
+      <button id="closeLightbox" class="absolute -top-12 right-0 text-white text-3xl hover:text-gray-300 transition-colors" aria-label="Close Lightbox">✕</button>
+      <div class="flex items-center justify-center w-full relative">
+        <button id="prevProject" class="absolute left-0 p-4 text-white text-4xl bg-black/30 rounded-r">&#10094;</button>
+        <img id="lightboxImage" src="" alt="" class="max-h-[80vh] w-auto object-contain rounded-lg shadow-2xl mx-auto">
+        <button id="nextProject" class="absolute right-0 p-4 text-white text-4xl bg-black/30 rounded-l">&#10095;</button>
+      </div>
+      <div id="lightboxCaption" class="mt-6 text-center max-w-3xl">
+        <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
+        <p id="lightboxDescription" class="text-gray-300"></p>
+        <a id="lightboxVisit" target="_blank" class="inline-block mt-4 px-4 py-2 bg-[#fa8072] text-white rounded hover:bg-[#ff9889] transition-colors">Visit Project</a>
+      </div>
     </div>
   </div>
-</div>
-    <script src="script.js"></script>
+
+  <script src="script.js"></script>
 </body>
 </html>

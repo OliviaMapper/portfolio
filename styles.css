@@ -9,7 +9,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
   border-radius: 0.5rem;
-  background-color: rgba(1, 79, 54, 0.8); /* dark green card background */
+  background-color: rgba(1, 79, 54, 0.8);
 }
 .portfolio-item:hover { 
   transform: translateY(-4px); 
@@ -17,28 +17,16 @@
 }
 .portfolio-item img { 
   width: 100%;
-  height: auto;           /* auto-sizing for landscape and portrait */
-  object-fit: contain;    /* keep image aspect ratio */
+  height: auto; 
+  object-fit: contain;
   transition: transform 0.3s ease, opacity 0.3s ease; 
 }
 .portfolio-item img:hover { 
   transform: scale(1.02); 
   opacity: 0.95; 
 }
-
-/* Portfolio Text */
-.portfolio-item h3 {
-  font-size: 1.125rem; /* smaller title */
-  margin-bottom: 0.25rem;
-  color: #fa8072;
-}
-.portfolio-item p {
-  font-size: 0.875rem;  /* smaller description */
-  color: #d1d5db;
-  margin: 0;
-  text-align: center;
-  padding-bottom: 0.5rem;
-}
+.portfolio-item h3 { font-size: 1.125rem; margin-bottom: 0.25rem; color: #fa8072; text-align:center; }
+.portfolio-item p { font-size: 0.875rem; color: #d1d5db; margin:0; text-align:center; padding-bottom:0.5rem; }
 
 /* Lightbox */
 #lightbox { 
@@ -54,45 +42,28 @@
 }
 #lightbox img { 
   max-height: 80vh; 
+  max-width: 90vw;
   width: auto; 
+  height: auto; 
   object-fit: contain; 
   border-radius: 0.5rem; 
   box-shadow: 0 0 30px rgba(0,0,0,0.7); 
 }
-#lightboxCaption { 
-  margin-top: 1.5rem; 
-  text-align: center; 
-  max-width: 700px; 
-}
-#lightboxTitle { 
-  color: #fa8072; 
-  font-size: 1.5rem;
-}
-#lightboxDescription { 
-  color: #d1d5db; 
-  margin-top: 0.5rem;
-}
+#lightboxCaption { margin-top:1.5rem; text-align:center; max-width:700px; }
+#lightboxTitle { color:#fa8072; font-size:1.5rem; }
+#lightboxDescription { color:#d1d5db; margin-top:0.5rem; }
+#lightboxVisit { display:none; margin-top:1rem; }
 
 /* Lightbox Buttons */
 #prevProject, #nextProject { 
-  position:absolute; 
-  top:50%; 
-  transform:translateY(-50%); 
-  font-size:2rem; 
-  color:white; 
-  background:rgba(0,0,0,0.3); 
-  pad
-  ding:.5rem 1rem; 
-  border-radius:.25rem; 
-  cursor:pointer; 
-  opacity:0; 
-  transition:opacity .3s ease; 
+  position:absolute; top:50%; transform:translateY(-50%); font-size:2rem; color:white; background:rgba(0,0,0,0.3); padding:.5rem 1rem; border-radius:.25rem; cursor:pointer; opacity:0; transition:opacity .3s ease; 
 }
-#prevProject:hover, #nextProject:hover { 
-  opacity:1; 
-  background:rgba(0,0,0,0.5); 
+#prevProject:hover, #nextProject:hover { opacity:1; background:rgba(0,0,0,0.5); }
+#prevProject { left:0; } 
+#nextProject { right:0; }
+#lightbox > div:hover #prevProject, #lightbox > div:hover #nextProject { opacity:0.7; }
+
+/* Responsive */
+@media (max-width:768px){ 
+  #prevProject, #nextProject{ font-size:1.5rem; padding:.25rem .5rem; } 
 }
-#prevProject { left:0; }    #nextProject { right:0; }
-#lightbox > div > .group:hover #prevProject, #lightbox > div > .group:hover #nextProject { 
-  opacity:1; 
-} 
