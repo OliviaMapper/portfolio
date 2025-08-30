@@ -8,104 +8,24 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-darkgreen text-white font-sans">
+<body>
+  <h1 class="page-title">My Work</h1>
 
-  <!-- Header -->
-  <header class="shadow-md p-6">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold" style="color: #fa8072;">Olivia Napper</h1>
-      <nav class="space-x-6">
-        <a href="#portfolio" class="hover:text-gray-300">Portfolio</a>
-        <a href="#about" class="hover:text-gray-300">About</a>
-        <a href="#contact" class="hover:text-gray-300">Contact</a>
-      </nav>
+  <!-- Gallery Grid -->
+  <div class="gallery">
+    <div class="gallery-item" data-image="images/project1.jpg">
+      <img src="images/project1.jpg" alt="Project 1">
+      <p class="caption">Optional caption with <a href="#">link</a></p>
     </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="text-center py-16 px-6">
-    <h2 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h2>
-    <p class="text-gray-300 max-w-2xl mx-auto">
-      I’m a geographer, cartographer, and data visualization expert passionate about the power of maps and design to tell stories.
-    </p>
-  </section>
-
-  <!-- Portfolio Grid -->
-  <section id="portfolio" class="py-16 bg-gray-100">
-  <div class="max-w-6xl mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center mb-10">My Projects</h2>
-    
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      
-      <!-- Project 1 -->
-      <div class="portfolio-item cursor-pointer"
-           data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg"
-           data-title="Africa Evaporative Water Loss from Reservoirs, Floating Solar Panels"
-           data-description="This is a short description of Project One."
-           data-link="https://example.com/project1">
-        <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Project One">
-        <h3 class="text-lg font-semibold mt-2">Project One</h3>
-        <p class="text-sm text-gray-600">Brief description here.</p>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="portfolio-item cursor-pointer"
-           data-image="images/project2.png"
-           data-title="Project Two"
-           data-description="This is a short description of Project Two."
-           data-link="https://example.com/project2">
-        <img src="images/project2.png" alt="Project Two">
-        <h3 class="text-lg font-semibold mt-2">Project Two</h3>
-        <p class="text-sm text-gray-600">Brief description here.</p>
-      </div>
-
-      <!-- Project 3 -->
-      <div class="portfolio-item cursor-pointer"
-           data-image="images/project3.png"
-           data-title="Project Three"
-           data-description="This is a short description of Project Three."
-           data-link="https://example.com/project3">
-        <img src="images/project3.png" alt="Project Three">
-        <h3 class="text-lg font-semibold mt-2">Project Three</h3>
-        <p class="text-sm text-gray-600">Brief description here.</p>
-      </div>
-
-      <!-- Project 4 -->
-      <div class="portfolio-item cursor-pointer"
-           data-image="images/project4.png"
-           data-title="Project Four"
-           data-description="This is a short description of Project Four."
-           data-link="https://example.com/project4">
-        <img src="images/project4.png" alt="Project Four">
-        <h3 class="text-lg font-semibold mt-2">Project Four</h3>
-        <p class="text-sm text-gray-600">Brief description here.</p>
-      </div>
-
-      <!-- Project 5 -->
-      <div class="portfolio-item cursor-pointer"
-           data-image="images/project5.png"
-           data-title="Project Five"
-           data-description="This is a short description of Project Five."
-           data-link="https://example.com/project5">
-        <img src="images/project5.png" alt="Project Five">
-        <h3 class="text-lg font-semibold mt-2">Project Five</h3>
-        <p class="text-sm text-gray-600">Brief description here.</p>
-      </div>
-
-      <!-- Project 6 -->
-      <div class="portfolio-item cursor-pointer"
-           data-image="images/project6.png"
-           data-title="Project Six"
-           data-description="This is a short description of Project Six."
-           data-link="https://example.com/project6">
-        <img src="images/project6.png" alt="Project Six">
-        <h3 class="text-lg font-semibold mt-2">Project Six</h3>
-        <p class="text-sm text-gray-600">Brief description here.</p>
-      </div>
-      
+    <div class="gallery-item" data-image="images/project2.jpg">
+      <img src="images/project2.jpg" alt="Project 2">
     </div>
+    <div class="gallery-item" data-image="images/project3.jpg">
+      <img src="images/project3.jpg" alt="Project 3">
+      <p class="caption">Another optional text</p>
+    </div>
+    <!-- Add more items as needed -->
   </div>
-</section>
-
 
   <!-- About Section -->
   <section id="about" class="max-w-4xl mx-auto text-center py-16 px-6">
@@ -129,21 +49,16 @@
   </section>
 
   <!-- Lightbox -->
-<div id="lightbox" class="hidden fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4">
-  <div class="relative max-w-5xl mx-auto text-center">
-    <button id="closeLightbox" class="absolute top-2 right-2 text-white text-3xl font-bold">&times;</button>
-    <img id="lightboxImage" src="" alt="" class="mx-auto rounded shadow-lg">
-    <div id="lightboxCaption" class="mt-4">
-      <h3 id="lightboxTitle" class="text-xl font-bold text-pink-400"></h3>
-      <p id="lightboxDescription" class="text-gray-300"></p>
-      <a id="lightboxVisit" href="#" target="_blank"
-         class="mt-2 inline-block px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Visit Project</a>
-    </div>
-    <!-- Nav arrows -->
-    <button id="prevProject" class="absolute left-0 top-1/2 -translate-y-1/2 text-white text-2xl px-3 py-1 bg-black bg-opacity-30 rounded hover:bg-opacity-50">&#10094;</button>
-    <button id="nextProject" class="absolute right-0 top-1/2 -translate-y-1/2 text-white text-2xl px-3 py-1 bg-black bg-opacity-30 rounded hover:bg-opacity-50">&#10095;</button>
+  <div id="lightbox" class="hidden">
+    <span id="closeLightbox">&times;</span>
+    <img id="lightboxImage" src="" alt="Preview">
+    <span id="prevProject">&#10094;</span>
+    <span id="nextProject">&#10095;</span>
   </div>
-</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
 <script src="script.js"></script>
 </body>

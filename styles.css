@@ -1,93 +1,80 @@
-/* =========================
-   Custom Colors
-   ========================= */
-.bg-darkgreen { background-color: #01382a; }
-.border-darkgreen { border-color: #01382a; }
+/* Page styling */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #00291e;
+  color: #222;
+}
 
-/* Portfolio Item */
-.portfolio-item {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  overflow: hidden;
-  border-radius: 0.5rem;
-  background-color: rgba(1, 79, 54, 0.8);
+.page-title {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: #01382a;
 }
-.portfolio-item:hover { 
-  transform: translateY(-4px); 
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); 
+
+/* Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
 }
-/* Portfolio grid images */
-.portfolio-item img {
+
+.gallery img {
   width: 100%;
   height: auto;
-  object-fit: cover;   /* keeps nice cropping */
   border-radius: 0.5rem;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
-.portfolio-item img:hover {
+.gallery img:hover {
   transform: scale(1.02);
-  opacity: 0.95;
 }
+
+.caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
 /* Lightbox */
-#lightbox { 
-  display: none;   /* hidden by default */
-  position: fixed; 
-  inset: 0; 
-  background-color: rgba(0,0,0,0.9); 
-  z-index: 50; 
-  align-items: center; 
-  justify-content: center; 
-  padding: 1rem; 
+#lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#lightbox img { 
-  max-height: 80vh; 
+#lightbox img {
   max-width: 90vw;
-  width: auto; 
-  height: auto; 
-  object-fit: contain; 
-  border-radius: 0.5rem; 
-  box-shadow: 0 0 30px rgba(0,0,0,0.7); 
-}
-
-#lightboxCaption { 
-  margin-top: 1.5rem; 
-  text-align: center; 
-  max-width: 700px; 
-}
-
-#lightboxTitle { 
-  color: #fa8072; 
-  font-size: 1.5rem; 
-}
-
-#lightboxDescription { 
-  color: #d1d5db; 
-  margin-top: 0.5rem; 
-}
-
-#lightboxVisit { 
-  display: none; 
-  margin-top: 1rem; 
-}
-
-
-/* Responsive */
-@media (max-width:768px){ 
-  #prevProject, #nextProject{ font-size:1.5rem; padding:.25rem .5rem; } 
-}
-
-/* Portfolio thumbnails */
-.portfolio-item img {
-  width: 100%;
-  height: 200px;          /* fixed grid height */
-  object-fit: cover;      /* keeps crop neat */
+  max-height: 85vh;
   border-radius: 0.5rem;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-.portfolio-item img:hover {
-  transform: scale(1.02);
-  opacity: 0.95;
 }
 
+/* Controls */
+#closeLightbox,
+#prevProject,
+#nextProject {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s ease;
+}
 
+#closeLightbox { top: 20px; right: 30px; }
+#prevProject { left: 30px; top: 50%; transform: translateY(-50%); }
+#nextProject { right: 30px; top: 50%; transform: translateY(-50%); }
 
+#closeLightbox:hover,
+#prevProject:hover,
+#nextProject:hover {
+  color: #e1968e;
+}
