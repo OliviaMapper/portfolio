@@ -8,7 +8,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <h1 class="page-title">Olivia Napper | Portfolio </h1>
+  <h1 class="text-5xl md:text-7xl font-light mb-6 fade-in" style="color: #fa8072;">
+    <span id="typewriter"></span>
+  </h1>
 
   <!-- Gallery Section Header -->
   <h2 class="text-3xl font-bold mb-6" style="color: #e1968e; font-family: 'Faustina', serif;">Selected Work</h2>
@@ -59,9 +61,35 @@
   </div>
 
   <script src="script.js"></script>
-</body>
-</html>
+  <script>
+    const words = ['Designer', 'Analyst', 'Cartographer', 'Storyteller'];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
 
-<script src="script.js"></script>
+    function typeWriter() {
+        const current = words[wordIndex];
+        const typewriterElement = document.getElementById('typewriter');
+        
+        if (isDeleting) {
+            typewriterElement.textContent = current.substring(0, charIndex - 1);
+            charIndex--;
+        } else {
+            typewriterElement.textContent = current.substring(0, charIndex + 1);
+            charIndex++;
+        }
+        
+        if (!isDeleting && charIndex === current.length) {
+            setTimeout(() => isDeleting = true, 2000);
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+        }
+        
+        setTimeout(typeWriter, isDeleting ? 50 : 100);
+    }
+
+    setTimeout(typeWriter, 1000);
+  </script>
 </body>
 </html>
