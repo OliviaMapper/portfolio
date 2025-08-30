@@ -8,13 +8,48 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <h1 class="text-5xl md:text-7xl font-bold mb-6 fade-in" style="color: #fca095; text-align: center;"><p>Olivia Napper</p>
-  </h1>
+  <!-- Navigation Bar -->
+  <nav class="w-full py-6 flex justify-end items-center bg-transparent pr-8">
+    <a href="index.html" class="mx-4 text-lg font-semibold nav-link" style="color: #fca095; text-decoration: none;">Portfolio</a>
+    <a href="about.html" class="mx-4 text-lg font-semibold nav-link" style="color: #fca095; text-decoration: none;">About Me</a>
+  </nav>
+
+  <h1 class="text-5xl md:text-7xl font-bold mb-6 fade-in" style="color: #fca095; text-align: center;">Olivia Napper</h1>
   <div class="text-2xl md:text-4xl font-bold mb-6 fade-in" style="color: #fcf7bf; text-align: center;">
     <span id="typewriter"></span>
 
   <!-- Gallery Section Header -->
-  <h2 class="text-3xl font-bold mb-6 mt-12" style="color: #fca095; text-align: center;">Selected Works</h2>
+  <h2 class="text-3xl font-bold mb-6 mt-12" style="color: #fca095; text-align: center;">Infographics</h2>
+
+  <!-- Gallery Grid -->
+  <div class="gallery">
+    <div class="gallery-item" data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg">
+      <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Project 1">
+      <p class="caption">Energy ● Climate Change ● Adobe Illustrator<a href="#">link</a></p>
+    </div>
+    <div class="gallery-item" data-image="images/Sudan_FoodInsecurity_Displacement_2024Aug14_HIU_U2924.jpg">
+      <img src="images/Sudan_FoodInsecurity_Displacement_2024Aug14_HIU_U2924.jpg" alt="Project 3">
+      <p class="caption">Another optional text</p>
+    </div>
+    <div class="gallery-item" data-image="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg">
+      <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Project 2">
+    </div>
+    <div class="gallery-item" data-image="images/DRC_Conflict_HumanitarianCrisis_2024Jun4_HIU_U2874.jpg">
+      <img src="images/DRC_Conflict_HumanitarianCrisis_2024Jun4_HIU_U2874.jpg" alt="Project 3">
+      <p class="caption">Another optional text</p>
+    </div>
+    <div class="gallery-item" data-image="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg">
+      <img src="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg" alt="Project 1">
+      <p class="caption">Energy ● Climate Change ● Adobe Illustrator<a href="#">link</a></p>
+    </div>
+    <div class="gallery-item" data-image="images/SouthernMadagascar_DroughtFoodSecurity_2021Oct25_HIU_U2486.jpg">
+      <img src="images/SouthernMadagascar_DroughtFoodSecurity_2021Oct25_HIU_U2486.jpg" alt="Project 2">
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+
+  <!-- Gallery Section Header -->
+  <h2 class="text-3xl font-bold mb-6 mt-12" style="color: #fca095; text-align: center;">Maps</h2>
 
   <!-- Gallery Grid -->
   <div class="gallery">
@@ -32,16 +67,24 @@
     <!-- Add more items as needed -->
   </div>
 
-  <!-- About Section -->
-  <section id="about" class="max-w-4xl mx-auto text-center py-16 px-6">
-    <h2 class="text-3xl font-bold mb-6" style="color: #fca095; text-align: center;">About Me</h2>
-    <body>
-        <p class="text-sm font-light text-white">
-      I’m passionate about creating clear, effective visualizations and maps that help decision-makers act quickly and confidently. 
-      With experience in government and international organizations, I thrive at the intersection of design, data, and geography.
-    </p>
-    </body>
-  </section>
+  <!-- Gallery Section Header -->
+  <h2 class="text-3xl font-bold mb-6 mt-12" style="color: #fca095; text-align: center;">Other Projects</h2>
+
+  <!-- Gallery Grid -->
+  <div class="gallery">
+    <div class="gallery-item" data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg">
+      <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Project 1">
+      <p class="caption">Energy ● Climate Change ● Adobe Illustrator<a href="#">link</a></p>
+    </div>
+    <div class="gallery-item" data-image="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg">
+      <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Project 2">
+    </div>
+    <div class="gallery-item" data-image="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg">
+      <img src="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg" alt="Project 3">
+      <p class="caption">Another optional text</p>
+    </div>
+    <!-- Add more items as needed -->
+  </div>
 
   <!-- Contact Section -->
   <section id="contact" class="bg-darkgreen py-16 px-6">

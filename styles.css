@@ -6,9 +6,9 @@ body {
   margin: 0;
   background-color: #00291e;
   background-image:
-    linear-gradient(to right, #fcf7bf20 1px, transparent 1px),
-    linear-gradient(to bottom, #fcf7bf20 1px, transparent 1px);
-  background-size: 80px 80px;
+    linear-gradient(to right, #effff410 1px, transparent 1px),
+    linear-gradient(to bottom, #effff410 1px, transparent 1px);
+  background-size: 70px 70px;
   color: #fcf7bf;
   font-family: 'PT Sans', sans-serif;
 }
@@ -16,7 +16,7 @@ body {
 /* Grid */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
