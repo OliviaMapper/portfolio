@@ -1,17 +1,16 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Averia+Libre&display=swap');
+
 /* Page styling */
 body {
   margin: 0;
-  font-family: 'Nunito', sans-serif;
-  background: #00291e;
-  color: #ffffff;
-}
-
-.page-title {
-  text-align: center;
-  margin: 3rem 0;
-  font-family: 'Plaster', sans-serif;
-  font-size: 3rem;
-  color: #e1968e;
+  background-color: #00291e;
+  background-image:
+    linear-gradient(to right, #fcf7bf20 1px, transparent 1px),
+    linear-gradient(to bottom, #fcf7bf20 1px, transparent 1px);
+  background-size: 80px 80px;
+  color: #fcf7bf;
+  font-family: 'PT Sans', sans-serif;
 }
 
 /* Grid */
@@ -35,13 +34,12 @@ body {
 
 .caption {
   font-size: 0.6rem;
-  color: #ffffff;
+  color: #fcf7bf;
   margin-top: 0.5rem;
 }
 
 .section-header, h2 {
   text-align: center;  
-  font-family: 'Nunito', sans-serif;
     /* Add any other styles you want for section headers */
 }
 
@@ -96,4 +94,11 @@ body {
 @keyframes blink {
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
+}
+
+h1{
+  font-family: 'Averia Libre', sans-serif;
+}
+h2, h3, h4, h5, h6 {
+  font-family: 'PT Sans', sans-serif;
 }

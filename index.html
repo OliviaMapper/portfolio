@@ -8,18 +8,19 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <h1 class="text-5xl md:text-7xl font-light mb-6 fade-in" style="color: #fa8072;">
-    <span id="typewriter"></span>
+  <h1 class="text-5xl md:text-7xl font-bold mb-6 fade-in" style="color: #fca095; text-align: center;"><p>Olivia Napper</p>
   </h1>
+  <div class="text-2xl md:text-4xl font-bold mb-6 fade-in" style="color: #fcf7bf; text-align: center;">
+    <span id="typewriter"></span>
 
   <!-- Gallery Section Header -->
-  <h2 class="text-3xl font-bold mb-6" style="color: #e1968e; font-family: 'Faustina', serif;">Selected Work</h2>
+  <h2 class="text-3xl font-bold mb-6 mt-12" style="color: #fca095; text-align: center;">Selected Works</h2>
 
   <!-- Gallery Grid -->
   <div class="gallery">
     <div class="gallery-item" data-image="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg">
       <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Project 1">
-      <p class="caption">Optional caption with <a href="#">link</a></p>
+      <p class="caption">Energy ● Climate Change ● Adobe Illustrator<a href="#">link</a></p>
     </div>
     <div class="gallery-item" data-image="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg">
       <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Project 2">
@@ -33,20 +34,22 @@
 
   <!-- About Section -->
   <section id="about" class="max-w-4xl mx-auto text-center py-16 px-6">
-    <h2 class="text-3xl font-bold mb-6" style="color: #e1968e;">About Me</h2>
-    <p class="text-white">
+    <h2 class="text-3xl font-bold mb-6" style="color: #fca095; text-align: center;">About Me</h2>
+    <body>
+        <p class="text-sm font-light text-white">
       I’m passionate about creating clear, effective visualizations and maps that help decision-makers act quickly and confidently. 
       With experience in government and international organizations, I thrive at the intersection of design, data, and geography.
     </p>
+    </body>
   </section>
 
   <!-- Contact Section -->
   <section id="contact" class="bg-darkgreen py-16 px-6">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6" style="color: #e1968e;">Get in Touch</h2>
-      <p class="text-white">Feel free to reach out for collaborations or just a friendly hello!</p>
+      <h2 class="text-3xl font-bold mb-6" style="color: #fca095; text-align: center;">Get in Touch</h2>
+      <p class="text-sm font-light text-white">Feel free to reach out for collaborations or just a friendly hello!</p>   
       <a href="mailto:info@olivianapper.com" 
-         class="inline-block bg-[#e1968e] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#ff9889] transition-colors">
+         class="inline-block bg-[#e1968e] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#ff9889] transition-colors mt-8">
         Email Me
       </a>
     </div>
@@ -62,7 +65,7 @@
 
   <script src="script.js"></script>
   <script>
-    const words = ['Designer', 'Analyst', 'Cartographer', 'Storyteller'];
+    const words = ['Cartographer', 'Geospatial Analyst', 'Information Designer', 'Visual Storyteller'];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
