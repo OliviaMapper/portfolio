@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     title.textContent = item.dataset.title;
     desc.textContent = item.dataset.description;
 
-    if(item.dataset.link){
+    if (item.dataset.link) {
       visitBtn.href = item.dataset.link;
       visitBtn.style.display = "inline-block";
     } else {
@@ -25,13 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     lightbox.classList.remove("hidden");
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = "hidden"; // disable scroll
     currentIndex = i;
   }
 
   function closeLightboxFunc() {
     lightbox.classList.add("hidden");
-    document.body.style.overflow = "";
+    document.body.style.overflow = ""; // restore scroll
+    img.src = ""; // clear image to prevent “expanded” look on load
     currentIndex = -1;
   }
 
@@ -43,21 +44,24 @@ document.addEventListener("DOMContentLoaded", () => {
     openLightbox((currentIndex - 1 + items.length) % items.length);
   }
 
+  // Open on click
   items.forEach((item, i) => item.addEventListener("click", () => openLightbox(i)));
+
+  // Buttons
   closeBtn.addEventListener("click", closeLightboxFunc);
   nextBtn.addEventListener("click", next);
   prevBtn.addEventListener("click", prev);
 
-  // Close lightbox if clicked outside image
+  // Close when clicking background
   lightbox.addEventListener("click", e => {
-    if(e.target === lightbox) closeLightboxFunc();
+    if (e.target === lightbox) closeLightboxFunc();
   });
 
-  // Keyboard navigation
+  // Keyboard support
   document.addEventListener("keydown", e => {
-    if(currentIndex === -1) return;
-    if(e.key === "Escape") closeLightboxFunc();
-    if(e.key === "ArrowRight") next();
-    if(e.key === "ArrowLeft") prev();
+    if (currentIndex === -1) return;
+    if (e.key === "Escape") closeLightboxFunc();
+    if (e.key === "ArrowRight") next();
+    if (e.key === "ArrowLeft") prev();
   });
 });
