@@ -1,15 +1,16 @@
 /* Page styling */
 body {
   margin: 0;
-  font-family: 'Faustina', serif;
+  font-family: 'Nunito', sans-serif;
   background: #00291e;
   color: #ffffff;
 }
 
 .page-title {
   text-align: center;
-  margin: 2rem 0;
-  font-size: 2rem;
+  margin: 3rem 0;
+  font-family: 'Plaster', sans-serif;
+  font-size: 3rem;
   color: #e1968e;
 }
 
@@ -39,7 +40,8 @@ body {
 }
 
 .section-header, h2 {
-    font-family: 'Faustina', serif;
+  text-align: center;  
+  font-family: 'Nunito', sans-serif;
     /* Add any other styles you want for section headers */
 }
 
