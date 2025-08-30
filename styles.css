@@ -33,9 +33,14 @@ body {
 }
 
 .caption {
-  font-size: 0.9rem;
-  color: #555;
+  font-size: 0.6rem;
+  color: #ffffff;
   margin-top: 0.5rem;
+}
+
+.section-header, h2 {
+    font-family: 'Faustina', serif;
+    /* Add any other styles you want for section headers */
 }
 
 /* Lightbox */
