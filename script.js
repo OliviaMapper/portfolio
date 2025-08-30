@@ -25,12 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     lightbox.classList.remove("hidden");
+    lightbox.classList.add("flex");   // show as flex for centering //
     document.body.style.overflow = "hidden"; // disable scroll
     currentIndex = i;
   }
 
   function closeLightboxFunc() {
     lightbox.classList.add("hidden");
+    lightbox.classList.remove("flex"); // remove flex when hiding
     document.body.style.overflow = ""; // restore scroll
     img.src = ""; // clear image to prevent “expanded” look on load
     currentIndex = -1;
@@ -46,11 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Open on click
   items.forEach((item, i) => item.addEventListener("click", () => openLightbox(i)));
-
-  // Buttons
-  closeBtn.addEventListener("click", closeLightboxFunc);
-  nextBtn.addEventListener("click", next);
-  prevBtn.addEventListener("click", prev);
+  if (closeBtn) closeBtn.addEventListener("click", closeLightboxFunc);
+  if (nextBtn) nextBtn.addEventListener("click", next);
+  if (prevBtn) prevBtn.addEventListener("click", prev);
 
   // Close when clicking background
   lightbox.addEventListener("click", e => {

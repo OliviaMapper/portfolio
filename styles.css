@@ -27,31 +27,18 @@
   transform: scale(1.02);
   opacity: 0.95;
 }
-
-/* Lightbox image */
-#lightboxImage {
-  max-height: 80vh;  /* fits inside viewport */
-  max-width: 90vw;
-  width: auto;
-  height: auto;
-  object-fit: contain;  /* show full image, no crop */
-  border-radius: 0.5rem;
-  box-shadow: 0 0 30px rgba(0,0,0,0.7);
-}
-
-
 /* Lightbox */
 #lightbox { 
-  display: none; 
+  display: none;   /* hidden by default */
   position: fixed; 
   inset: 0; 
   background-color: rgba(0,0,0,0.9); 
-  z-index:50; 
-  display: flex; 
+  z-index: 50; 
   align-items: center; 
   justify-content: center; 
   padding: 1rem; 
 }
+
 #lightbox img { 
   max-height: 80vh; 
   max-width: 90vw;
@@ -61,19 +48,28 @@
   border-radius: 0.5rem; 
   box-shadow: 0 0 30px rgba(0,0,0,0.7); 
 }
-#lightboxCaption { margin-top:1.5rem; text-align:center; max-width:700px; }
-#lightboxTitle { color:#fa8072; font-size:1.5rem; }
-#lightboxDescription { color:#d1d5db; margin-top:0.5rem; }
-#lightboxVisit { display:none; margin-top:1rem; }
 
-/* Lightbox Buttons */
-#prevProject, #nextProject { 
-  position:absolute; top:50%; transform:translateY(-50%); font-size:2rem; color:white; background:rgba(0,0,0,0.3); padding:.5rem 1rem; border-radius:.25rem; cursor:pointer; opacity:0; transition:opacity .3s ease; 
+#lightboxCaption { 
+  margin-top: 1.5rem; 
+  text-align: center; 
+  max-width: 700px; 
 }
-#prevProject:hover, #nextProject:hover { opacity:1; background:rgba(0,0,0,0.5); }
-#prevProject { left:0; } 
-#nextProject { right:0; }
-#lightbox > div:hover #prevProject, #lightbox > div:hover #nextProject { opacity:0.7; }
+
+#lightboxTitle { 
+  color: #fa8072; 
+  font-size: 1.5rem; 
+}
+
+#lightboxDescription { 
+  color: #d1d5db; 
+  margin-top: 0.5rem; 
+}
+
+#lightboxVisit { 
+  display: none; 
+  margin-top: 1rem; 
+}
+
 
 /* Responsive */
 @media (max-width:768px){ 
@@ -93,14 +89,5 @@
   opacity: 0.95;
 }
 
-/* Lightbox image (full preview) */
-#lightboxImage {
-  max-height: 80vh;
-  max-width: 90vw;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 30px rgba(0,0,0,0.7);
-}
+
 
