@@ -1,16 +1,16 @@
 /* Page styling */
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Faustina', serif;
   background: #00291e;
-  color: #222;
+  color: #ffffff;
 }
 
 .page-title {
   text-align: center;
   margin: 2rem 0;
   font-size: 2rem;
-  color: #01382a;
+  color: #e1968e;
 }
 
 /* Grid */
@@ -45,10 +45,13 @@ body {
   inset: 0;
   background: rgba(0,0,0,0.9);
   z-index: 100;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
+
+#lightbox.show {
+  display: flex;
+} 
 
 #lightbox img {
   max-width: 90vw;

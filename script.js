@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
   function openLightbox(i) {
     currentIndex = i;
     lightboxImg.src = items[i].src;
-    lightbox.style.display = "flex";
+    lightbox.classList.add("show");   // instead of display = flex
     document.body.style.overflow = "hidden";
   }
 
   function closeLightbox() {
-    lightbox.style.display = "none";
+    lightbox.classList.remove("show"); // instead of display = none
     document.body.style.overflow = "";
     currentIndex = -1;
   }
