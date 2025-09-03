@@ -1,5 +1,115 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Averia+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700&family=Averia+Libre&display=swap');
+
+.about-container {
+  max-width: 56rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.about-message {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  font-family: 'Public Sans', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.contact-section {
+  padding: 4rem 1.5rem;
+}
+.navbar {
+  width: 100%;
+  padding: 1.5rem 2rem 1.5rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: transparent;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  font-size: 1.125rem;
+  color: #fca095;
+  text-decoration: none;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #e1968e;
+}
+
+.contact-container {
+  max-width: 56rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-message {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  font-family: 'Public Sans', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.contact-button {
+  display: inline-block;
+  background: #e1968e;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.contact-button:hover {
+  background: #ff9889;
+}
+h1.main-title {
+  font-family: 'Averia Libre', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fca095;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.main-subtitle {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fca095;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+}
+/* Style for gallery caption links */
+.caption a {
+  color: #fca095;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.caption a:hover {
+  color: #e1968e;
+}
 
 /* Page styling */
 body {
@@ -9,8 +119,9 @@ body {
     linear-gradient(to right, #effff410 1px, transparent 1px),
     linear-gradient(to bottom, #effff410 1px, transparent 1px);
   background-size: 70px 70px;
-  color: #fcf7bf;
-  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 200
 }
 
 /* Grid */
@@ -33,9 +144,23 @@ body {
 }
 
 .caption {
-  font-size: 0.6rem;
-  color: #fcf7bf;
+  font-size: 0.9rem;
   margin-top: 0.5rem;
+  line-height: 1.2; /* or a value smaller than the default */
+}
+
+.caption-title {
+  font-weight: bold;
+}
+
+.caption-meta {
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+.caption a {
+  display: block;
+  margin-top: 0.3em;
 }
 
 .section-header, h2 {
@@ -94,11 +219,4 @@ body {
 @keyframes blink {
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
-}
-
-h1{
-  font-family: 'Averia Libre', sans-serif;
-}
-h2, h3, h4, h5, h6 {
-  font-family: 'PT Sans', sans-serif;
 }
