@@ -11,7 +11,7 @@
 .about-message {
   font-size: 1rem;
   font-weight: 300;
-  color: #fff;
+  color: #ffffff;
   font-family: 'Public Sans', sans-serif;
   margin-bottom: 2rem;
 }
@@ -21,7 +21,7 @@
 }
 .navbar {
   width: 100%;
-  padding: 1.5rem 2rem 1.5rem 0;
+  padding: 1.5rem 2rem 0.5rem 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -33,7 +33,7 @@
   font-size: 1.125rem;
   color: #fca095;
   text-decoration: none;
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Averia Libre', sans-serif;
   font-weight: 500;
   transition: color 0.2s;
 }
@@ -50,7 +50,7 @@
 .contact-message {
   font-size: 1rem;
   font-weight: 300;
-  color: #fff;
+  color: #ffffff;
   font-family: 'Public Sans', sans-serif;
   margin-bottom: 2rem;
 }
@@ -58,11 +58,11 @@
 .contact-button {
   display: inline-block;
   background: #e1968e;
-  color: #fff;
+  color: #ffffff;
   padding: 0.75rem 1.5rem;
   border-radius: 9999px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Averia Libre', sans-serif;
   font-size: 1rem;
   font-weight: 600;
   margin-top: 2rem;
@@ -78,22 +78,22 @@ h1.main-title {
   font-weight: 700;
   color: #fca095;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
 
 .main-subtitle {
-  font-family: 'Public Sans', sans-serif;
-  font-size: 2rem;
+  font-family: 'Averia Libre', sans-serif;
+  font-size: 2.5rem;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .section-header {
   font-family: 'Public Sans', sans-serif;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #fca095;
   text-align: center;
   margin-bottom: 1.5rem;
@@ -103,7 +103,9 @@ h1.main-title {
 .caption a {
   color: #fca095;
   text-decoration: underline;
-  font-weight: 600;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 200;
+  font-weight: 300;
   transition: color 0.2s;
 }
 
@@ -127,7 +129,7 @@ body {
 /* Grid */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
@@ -144,28 +146,30 @@ body {
 }
 
 .caption {
+  font-family: 'Public Sans', sans-serif;
   font-size: 0.9rem;
+  font-weight: 200;
+  color: #ffffff;
+  text-align: center;
   margin-top: 0.5rem;
-  line-height: 1.2; /* or a value smaller than the default */
+  line-height: 1.4; /* or a value smaller than the default */
 }
 
 .caption-title {
-  font-weight: bold;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
 }
 
 .caption-meta {
-  font-size: 0.9em;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #ffffff;
+  text-align: center;
   margin-left: 0.5em;
-}
-
-.caption a {
-  display: block;
-  margin-top: 0.3em;
-}
-
-.section-header, h2 {
-  text-align: center;  
-    /* Add any other styles you want for section headers */
 }
 
 /* Lightbox */
@@ -214,7 +218,7 @@ body {
 
 #typewriter::after {
   content: '|';
-  animation: blink 1s infinite;
+  animation: blink 0.3s infinite;
 }
 @keyframes blink {
   0%, 50% { opacity: 1; }
