@@ -1,6 +1,39 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700&family=Averia+Libre&display=swap');
 
+.highlight {
+  color: #fca095;
+  font-weight: bold;
+}
+
+.about-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
+
+.about-text {
+  flex: 1 1 300px;
+  text-align: left;
+  font-size: 1.05rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about-container {
   max-width: 56rem;
   margin: 0 auto;
@@ -100,16 +133,18 @@ h1.main-title {
   margin-top: 3rem;
 }
 /* Style for gallery caption links */
-.caption a {
+
+.caption a,
+.about-text a {
   color: #fca095;
   text-decoration: underline;
   font-family: 'Public Sans', sans-serif;
-  font-size: 200;
   font-weight: 300;
   transition: color 0.2s;
 }
 
-.caption a:hover {
+.caption a:hover,
+.about-text a:hover {
   color: #e1968e;
 }
 
@@ -218,7 +253,7 @@ body {
 
 #typewriter::after {
   content: '|';
-  animation: blink 0.3s infinite;
+  animation: blink 0.9s infinite;
 }
 @keyframes blink {
   0%, 50% { opacity: 1; }

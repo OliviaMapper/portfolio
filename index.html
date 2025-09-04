@@ -393,7 +393,7 @@
         }
         
         if (!isDeleting && charIndex === current.length) {
-            setTimeout(() => isDeleting = true, 2000);
+            setTimeout(() => isDeleting = true, 1500);
         } else if (isDeleting && charIndex === 0) {
             isDeleting = false;
             wordIndex = (wordIndex + 1) % words.length;
