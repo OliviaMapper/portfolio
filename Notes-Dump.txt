@@ -1,0 +1,1369 @@
+
+
+Cartographer and data visualization designer committed to delivering information more efficiently through visual storytelling.
+
+<Africa_WaterLoss_2022Dec8_HIU_U2641 class="jpg"></Africa_WaterLoss_2022Dec8_HIU_U2641>
+
+Evaporative Water Loss in Africa and How Floating Solar Panels on Reservoirs Could Help
+
+
+<World_HumanitarianFunding_2024Apr23_HIU_U2923 class="jpg"></World_HumanitarianFunding_2024Apr23_HIU_U2923>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Napper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-white smooth-scroll" style="background-color: #01382a;">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full backdrop-blur-md z-50 border-b" style="background-color: rgba(1, 56, 42, 0.9); border-color: rgba(1, 56, 42, 0.7);">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-semibold" style="color: #fa8072;">Portfolio</div>
+                <div class="flex space-x-8">
+                    <a href="#portfolio" class="nav-link text-gray-300 font-medium">Portfolio</a>
+                    <a href="#about" class="nav-link text-gray-300 font-medium">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-light mb-6 fade-in" style="color: #fa8072;">
+                Olivia Napper
+            </h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto fade-in italic">
+                Cartographer and data visualization designer committed to delivering information more efficiently through visual storytelling.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-light text-center mb-16 fade-in" style="color: #fa8072;">Selected Work</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Brand Identity</h3>
+                        <p class="text-white">Infographic Example 1</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Web Design</h3>
+                        <p class="text-gray-300">Responsive website design with focus on user experience</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square bg-gradient-to-br from-rose-400 to-pink-500 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.1 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Print Design</h3>
+                        <p class="text-gray-300">Editorial layout and print collateral design</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square bg-gradient-to-br from-yellow-400 to-amber-500 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Mobile App</h3>
+                        <p class="text-gray-300">iOS app interface design with intuitive navigation</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square bg-gradient-to-br from-violet-400 to-purple-500 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Packaging</h3>
+                        <p class="text-gray-300">Product packaging design for premium consumer goods</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Data Visualization</h3>
+                        <p class="text-gray-300">Interactive charts and infographic design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6" style="background-color: rgba(1, 56, 42, 0.8);">
+        <div class="max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="fade-in">
+                    <h2 class="text-4xl font-light mb-8" style="color: #fa8072;">About Me</h2>
+                    <div class="space-y-6 text-gray-300 leading-relaxed text-lg">
+                        <p class="italic">
+                            I'm a visual designer passionate about creating meaningful connections between brands and their audiences through thoughtful, strategic design.
+                        </p>
+                        <p>
+                            With over 5 years of experience in brand identity, web design, and print media, I believe great design should not only look beautiful but also solve real problems and tell compelling stories.
+                        </p>
+                        <p>
+                            When I'm not designing, you can find me exploring new coffee shops, hiking local trails, or experimenting with analog photography.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-8 flex space-x-6">
+                        <a href="mailto:hello@example.com" class="contact-link font-medium transition-colors underline decoration-dotted" style="color: #fa8072;">
+                            Get in touch
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-gray-200 transition-colors underline decoration-dotted">
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="fade-in">
+                    <div class="aspect-square rounded-lg flex items-center justify-center border" style="background: linear-gradient(to bottom right, rgba(1, 56, 42, 0.9), rgba(1, 56, 42, 0.7)); border-color: rgba(1, 56, 42, 0.6);">
+                        <svg class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24" style="color: #fa8072;">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 text-white" style="background-color: #000f0b;">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-gray-500 italic">© 2024 Visual Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'976f4a4463fb0827',t:'MTc1NjUwNDQ5OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-100 smooth-scroll" style="background-color: #01382a;">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full backdrop-blur-md z-50 border-b" style="background-color: rgba(1, 56, 42, 0.9); border-color: rgba(1, 56, 42, 0.7);">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-semibold" style="color: #fa8072;">Portfolio</div>
+                <div class="flex space-x-8">
+                    <a href="#portfolio" class="nav-link text-gray-300 font-medium">Portfolio</a>
+                    <a href="#about" class="nav-link text-gray-300 font-medium">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-light mb-6 fade-in" style="color: #fa8072;">
+                Visual Designer
+            </h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto fade-in italic">
+                Creating beautiful, meaningful experiences through thoughtful design and visual storytelling.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-light text-center mb-16 fade-in" style="color: #fa8072;">Selected Work</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="images/brand-identity.jpg" alt="Brand Identity Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Brand Identity</h3>
+                        <p class="text-gray-300">Complete visual identity system for a modern tech startup</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="images/web-design.jpg" alt="Web Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Web Design</h3>
+                        <p class="text-gray-300">Responsive website design with focus on user experience</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="images/print-design.jpg" alt="Print Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Print Design</h3>
+                        <p class="text-gray-300">Editorial layout and print collateral design</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="images/mobile-app.jpg" alt="Mobile App Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Mobile App</h3>
+                        <p class="text-gray-300">iOS app interface design with intuitive navigation</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="images/packaging.jpg" alt="Packaging Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Packaging</h3>
+                        <p class="text-gray-300">Product packaging design for premium consumer goods</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="images/data-visualization.jpg" alt="Data Visualization Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Data Visualization</h3>
+                        <p class="text-gray-300">Interactive charts and infographic design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6" style="background-color: rgba(1, 56, 42, 0.8);">
+        <div class="max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="fade-in">
+                    <h2 class="text-4xl font-light mb-8" style="color: #fa8072;">About Me</h2>
+                    <div class="space-y-6 text-gray-300 leading-relaxed text-lg">
+                        <p class="italic">
+                            I'm a visual designer passionate about creating meaningful connections between brands and their audiences through thoughtful, strategic design.
+                        </p>
+                        <p>
+                            With over 5 years of experience in brand identity, web design, and print media, I believe great design should not only look beautiful but also solve real problems and tell compelling stories.
+                        </p>
+                        <p>
+                            When I'm not designing, you can find me exploring new coffee shops, hiking local trails, or experimenting with analog photography.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-8 flex space-x-6">
+                        <a href="mailto:hello@example.com" class="contact-link font-medium transition-colors underline decoration-dotted" style="color: #fa8072;">
+                            Get in touch
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-gray-200 transition-colors underline decoration-dotted">
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="fade-in">
+                    <div class="aspect-square rounded-lg flex items-center justify-center border" style="background: linear-gradient(to bottom right, rgba(1, 56, 42, 0.9), rgba(1, 56, 42, 0.7)); border-color: rgba(1, 56, 42, 0.6);">
+                        <svg class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24" style="color: #fa8072;">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 text-white" style="background-color: #000f0b;">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-gray-500 italic">© 2024 Visual Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'976f5ead469d33bd',t:'MTc1NjUwNTMzNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Napper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-100 smooth-scroll" style="background-color: #01382a;">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full backdrop-blur-md z-50 border-b" style="background-color: rgba(1, 56, 42, 0.9); border-color: rgba(1, 56, 42, 0.7);">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-semibold" style="color: #fa8072;">Portfolio</div>
+                <div class="flex space-x-8">
+                    <a href="#portfolio" class="nav-link text-gray-300 font-medium">Portfolio</a>
+                    <a href="#about" class="nav-link text-gray-300 font-medium">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-light mb-6 fade-in" style="color: #fa8072;">
+                Olivia Napper
+            </h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto fade-in italic">
+                Creating beautiful, meaningful experiences through thoughtful design and visual storytelling.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-light text-center mb-16 fade-in" style="color: #fa8072;">Selected Work</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-[8.5/11] overflow-hidden">
+                        <img src="images/Africa_WaterLoss_2022Dec8_HIU_U2641.jpg" alt="Evaporative Water Loss in Africa and How Floating Solar Panels on Reservoirs Could Help" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Brand Identity</h3>
+                        <p class="text-gray-300">Complete visual identity system for a modern tech startup</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-[11/8.5] overflow-hidden">
+                        <img src="images/ChadSudan_DarfurViolence_2023Aug31_HIU_U2809.jpg" alt="Web Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Web Design</h3>
+                        <p class="text-gray-300">Responsive website design with focus on user experience</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-[8.5/11] overflow-hidden">
+                        <img src="images/World_HumanitarianFunding_2024Apr23_HIU_U2923.jpg" alt="Print Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Print Design</h3>
+                        <p class="text-gray-300">Editorial layout and print collateral design</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-[11/8.5] overflow-hidden">
+                        <img src="images/mobile-app.jpg" alt="Mobile App Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Mobile App</h3>
+                        <p class="text-gray-300">iOS app interface design with intuitive navigation</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-[8.5/11] overflow-hidden">
+                        <img src="images/packaging.jpg" alt="Packaging Design Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Packaging</h3>
+                        <p class="text-gray-300">Product packaging design for premium consumer goods</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item fade-in rounded-lg overflow-hidden shadow-lg hover:shadow-xl border cursor-pointer" style="background-color: rgba(1, 56, 42, 0.8); border-color: rgba(1, 56, 42, 0.6);">
+                    <div class="aspect-[11/8.5] overflow-hidden">
+                        <img src="images/data-visualization.jpg" alt="Data Visualization Project" class="w-full h-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Data Visualization</h3>
+                        <p class="text-gray-300">Interactive charts and infographic design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6" style="background-color: rgba(1, 56, 42, 0.8);">
+        <div class="max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="fade-in">
+                    <h2 class="text-4xl font-light mb-8" style="color: #fa8072;">About Me</h2>
+                    <div class="space-y-6 text-gray-300 leading-relaxed text-lg">
+                        <p class="italic">
+                            I'm a visual designer passionate about creating meaningful connections between brands and their audiences through thoughtful, strategic design.
+                        </p>
+                        <p>
+                            With over 5 years of experience in brand identity, web design, and print media, I believe great design should not only look beautiful but also solve real problems and tell compelling stories.
+                        </p>
+                        <p>
+                            When I'm not designing, you can find me exploring new coffee shops, hiking local trails, or experimenting with analog photography.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-8 flex space-x-6">
+                        <a href="mailto:hello@example.com" class="contact-link font-medium transition-colors underline decoration-dotted" style="color: #fa8072;">
+                            Get in touch
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-gray-200 transition-colors underline decoration-dotted">
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="fade-in">
+                    <div class="aspect-square rounded-lg flex items-center justify-center border" style="background: linear-gradient(to bottom right, rgba(1, 56, 42, 0.9), rgba(1, 56, 42, 0.7)); border-color: rgba(1, 56, 42, 0.6);">
+                        <svg class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24" style="color: #fa8072;">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 text-white" style="background-color: #000f0b;">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-gray-500 italic">© 2024 Visual Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-4">
+        <div class="relative max-w-4xl max-h-full">
+            <button id="closeLightbox" class="absolute -top-12 right-0 text-white text-2xl hover:text-gray-300 transition-colors">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+            <img id="lightboxImage" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl">
+            <div id="lightboxCaption" class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 text-white">
+                <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
+                <p id="lightboxDescription" class="text-gray-300"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'976f77dad3faf24a',t:'MTc1NjUwNjM2Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olivia Napper – Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#002922] text-white font-sans">
+
+  <!-- Header -->
+  <header class="text-center py-12">
+    <h1 class="text-5xl font-bold" style="color: #fa8072;">Olivia Napper</h1>
+    <p class="text-lg text-gray-300 mt-4">Geographer · Cartographer · Data Visualization Expert</p>
+  </header>
+
+  <!-- Portfolio Grid -->
+  <main class="max-w-6xl mx-auto px-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    
+    <!-- Portfolio Item -->
+    <div class="portfolio-item overflow-hidden rounded-lg shadow-lg hover:shadow-xl border cursor-pointer"
+         style="background-color: rgba(1,56,42,0.8); border-color: rgba(1,56,42,0.6);"
+         data-title="Urban Growth Analysis"
+         data-description="Cartographic visualization of urban expansion over time using satellite imagery."
+         data-image="images/project1.jpg">
+      <img src="images/project1.jpg" alt="Urban Growth Analysis" 
+           class="w-full h-72 object-cover md:h-80 lg:h-64">
+      <div class="p-6">
+        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Urban Growth Analysis</h3>
+        <p class="text-gray-300">Cartographic visualization of urban expansion over time.</p>
+      </div>
+    </div>
+
+    <!-- Another Portfolio Item -->
+    <div class="portfolio-item overflow-hidden rounded-lg shadow-lg hover:shadow-xl border cursor-pointer"
+         style="background-color: rgba(1,56,42,0.8); border-color: rgba(1,56,42,0.6);"
+         data-title="Climate Impact Maps"
+         data-description="A series of maps showing the effects of climate change on coastal regions."
+         data-image="images/project2.jpg">
+      <img src="images/project2.jpg" alt="Climate Impact Maps" 
+           class="w-full h-72 object-cover md:h-80 lg:h-64">
+      <div class="p-6">
+        <h3 class="text-xl font-medium mb-2" style="color: #fa8072;">Climate Impact Maps</h3>
+        <p class="text-gray-300">A series of maps showing the effects of climate change.</p>
+      </div>
+    </div>
+
+    <!-- Add more portfolio items here -->
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-6">
+    <div class="relative max-w-6xl w-full max-h-full flex flex-col">
+      <!-- Close Button -->
+      <button id="closeLightbox" class="absolute -top-12 right-0 text-white text-2xl hover:text-gray-300 transition-colors">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+
+      <!-- Image -->
+      <img id="lightboxImage" src="" alt="" class="max-h-[70vh] object-contain rounded-lg shadow-2xl mx-auto">
+
+      <!-- Caption -->
+      <div id="lightboxCaption" class="mt-6 text-center">
+        <h3 id="lightboxTitle" class="text-2xl font-medium mb-2" style="color: #fa8072;"></h3>
+        <p id="lightboxDescription" class="text-gray-300"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+Wild hero section from Cavna:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Viz Portfolio Hero</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+        .font-sans { font-family: 'Inter', sans-serif; }
+        
+        /* Animated background grid */
+        .data-grid {
+            background-image: 
+                linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
+            background-size: 40px 40px;
+            animation: gridMove 20s linear infinite;
+        }
+        
+        @keyframes gridMove {
+            0% { background-position: 0 0; }
+            100% { background-position: 40px 40px; }
+        }
+        
+        /* Floating data points */
+        .data-point {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: #3b82f6;
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .data-point:nth-child(2) { animation-delay: -1s; }
+        .data-point:nth-child(3) { animation-delay: -2s; }
+        .data-point:nth-child(4) { animation-delay: -3s; }
+        .data-point:nth-child(5) { animation-delay: -4s; }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) scale(1); opacity: 0.7; }
+            50% { transform: translateY(-20px) scale(1.2); opacity: 1; }
+        }
+        
+        /* Chart animations */
+        .bar-chart .bar {
+            transform-origin: bottom;
+            animation: growBar 2s ease-out forwards;
+        }
+        
+        @keyframes growBar {
+            from { transform: scaleY(0); }
+            to { transform: scaleY(1); }
+        }
+        
+        .line-chart path {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: drawLine 3s ease-out forwards;
+        }
+        
+        @keyframes drawLine {
+            to { stroke-dashoffset: 0; }
+        }
+        
+        /* Typing animation */
+        .typing::after {
+            content: '|';
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        
+        /* Hover effects */
+        .data-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
+        }
+        
+        /* Coordinate system */
+        .coordinates {
+            position: absolute;
+            font-size: 10px;
+            color: rgba(59, 130, 246, 0.5);
+            font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white overflow-x-hidden">
+    <!-- Background Grid -->
+    <div class="data-grid fixed inset-0 opacity-30"></div>
+    
+    <!-- Floating Data Points -->
+    <div class="fixed inset-0 pointer-events-none">
+        <div class="data-point" style="top: 20%; left: 10%;"></div>
+        <div class="data-point" style="top: 60%; left: 85%;"></div>
+        <div class="data-point" style="top: 30%; left: 75%;"></div>
+        <div class="data-point" style="top: 80%; left: 20%;"></div>
+        <div class="data-point" style="top: 45%; left: 60%;"></div>
+    </div>
+    
+    <!-- Coordinate System -->
+    <div class="coordinates" style="top: 20px; left: 20px;">0,0</div>
+    <div class="coordinates" style="top: 20px; right: 20px;">100,0</div>
+    <div class="coordinates" style="bottom: 20px; left: 20px;">0,100</div>
+    <div class="coordinates" style="bottom: 20px; right: 20px;">100,100</div>
+    
+    <!-- Main Hero Section -->
+    <div class="relative min-h-screen flex items-center justify-center px-6">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            
+            <!-- Left Content -->
+            <div class="space-y-8">
+                <!-- Status Indicator -->
+                <div class="flex items-center space-x-3 text-sm font-mono">
+                    <div class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
+                    <span class="text-green-400">STATUS: VISUALIZING_DATA</span>
+                </div>
+                
+                <!-- Main Heading -->
+                <div class="space-y-4">
+                    <h1 class="text-5xl lg:text-7xl font-bold font-sans leading-tight">
+                        <span class="text-blue-400">Data</span><br>
+                        <span class="text-white">Visualization</span><br>
+                        <span class="text-orange-400 typing" id="typewriter">Designer</span>
+                    </h1>
+                    
+                    <p class="text-xl text-slate-300 font-sans max-w-lg leading-relaxed">
+                        Transforming complex datasets into compelling visual narratives. 
+                        Specializing in interactive cartography and data-driven storytelling.
+                    </p>
+                </div>
+                
+                <!-- Stats Counter -->
+                <div class="grid grid-cols-3 gap-6 py-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold font-mono text-blue-400" id="projects">0</div>
+                        <div class="text-sm text-slate-400 font-mono">PROJECTS</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold font-mono text-orange-400" id="datasets">0</div>
+                        <div class="text-sm text-slate-400 font-mono">DATASETS</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold font-mono text-green-400" id="insights">0</div>
+                        <div class="text-sm text-slate-400 font-mono">INSIGHTS</div>
+                    </div>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 font-sans">
+                        View Portfolio
+                    </button>
+                    <button class="border border-slate-600 hover:border-blue-400 px-8 py-4 rounded-lg font-semibold transition-all duration-300 font-mono text-sm">
+                        DOWNLOAD_CV.pdf
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Right Visualizations -->
+            <div class="space-y-6">
+                
+                <!-- Interactive Bar Chart -->
+                <div class="data-card bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 transition-all duration-300">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="font-mono text-sm text-slate-300">SKILLS_DISTRIBUTION.json</h3>
+                        <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    </div>
+                    <div class="bar-chart flex items-end justify-between h-32 space-x-2">
+                        <div class="bar bg-blue-500 w-8 rounded-t" style="height: 80%; animation-delay: 0.2s;"></div>
+                        <div class="bar bg-orange-500 w-8 rounded-t" style="height: 100%; animation-delay: 0.4s;"></div>
+                        <div class="bar bg-green-500 w-8 rounded-t" style="height: 60%; animation-delay: 0.6s;"></div>
+                        <div class="bar bg-purple-500 w-8 rounded-t" style="height: 90%; animation-delay: 0.8s;"></div>
+                        <div class="bar bg-pink-500 w-8 rounded-t" style="height: 70%; animation-delay: 1s;"></div>
+                    </div>
+                    <div class="flex justify-between text-xs font-mono text-slate-400 mt-2">
+                        <span>D3</span>
+                        <span>Python</span>
+                        <span>R</span>
+                        <span>GIS</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                
+                <!-- Line Chart -->
+                <div class="data-card bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 transition-all duration-300">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="font-mono text-sm text-slate-300">PROJECT_TIMELINE.csv</h3>
+                        <div class="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                    </div>
+                    <div class="line-chart">
+                        <svg width="100%" height="80" viewBox="0 0 300 80">
+                            <path d="M 10 60 Q 75 20 150 40 T 290 30" 
+                                  stroke="#3b82f6" 
+                                  stroke-width="3" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>
+                            <circle cx="10" cy="60" r="4" fill="#3b82f6"/>
+                            <circle cx="150" cy="40" r="4" fill="#f97316"/>
+                            <circle cx="290" cy="30" r="4" fill="#10b981"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <!-- Geographic Coordinates -->
+                <div class="data-card bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 transition-all duration-300">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="font-mono text-sm text-slate-300">LOCATION_DATA.geojson</h3>
+                        <div class="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
+                    </div>
+                    <div class="space-y-2 font-mono text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">LAT:</span>
+                            <span class="text-orange-400" id="lat">40.7128</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">LNG:</span>
+                            <span class="text-orange-400" id="lng">-74.0060</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-400">ZOOM:</span>
+                            <span class="text-green-400">12.5</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Typewriter effect
+        const words = ['Designer', 'Analyst', 'Cartographer', 'Storyteller'];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        
+        function typeWriter() {
+            const current = words[wordIndex];
+            const typewriterElement = document.getElementById('typewriter');
+            
+            if (isDeleting) {
+                typewriterElement.textContent = current.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typewriterElement.textContent = current.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            if (!isDeleting && charIndex === current.length) {
+                setTimeout(() => isDeleting = true, 2000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+            }
+            
+            setTimeout(typeWriter, isDeleting ? 50 : 100);
+        }
+        
+        // Start typewriter
+        setTimeout(typeWriter, 1000);
+        
+        // Animated counters
+        function animateCounter(id, target, duration = 2000) {
+            const element = document.getElementById(id);
+            const start = 0;
+            const increment = target / (duration / 16);
+            let current = start;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                element.textContent = Math.floor(current);
+            }, 16);
+        }
+        
+        // Start counters after page load
+        setTimeout(() => {
+            animateCounter('projects', 47);
+            animateCounter('datasets', 1200);
+            animateCounter('insights', 8500);
+        }, 500);
+        
+        // Animate coordinates
+        function animateCoordinates() {
+            const latElement = document.getElementById('lat');
+            const lngElement = document.getElementById('lng');
+            
+            setInterval(() => {
+                const lat = (40.7128 + (Math.random() - 0.5) * 0.01).toFixed(4);
+                const lng = (-74.0060 + (Math.random() - 0.5) * 0.01).toFixed(4);
+                latElement.textContent = lat;
+                lngElement.textContent = lng;
+            }, 3000);
+        }
+        
+        animateCoordinates();
+        
+        // Interactive hover effects for data cards
+        document.querySelectorAll('.data-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-5px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97746f8a5524081f',t:'MTc1NjU1ODQ1NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+
+This too:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartographic Data Visualization Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Source+Code+Pro:wght@300;400;500&display=swap');
+        
+        .font-serif { font-family: 'Crimson Text', serif; }
+        .font-mono { font-family: 'Source Code Pro', monospace; }
+        
+        /* Vintage paper texture background */
+        .vintage-bg {
+            background: linear-gradient(45deg, #f4f1e8 0%, #f0ead6 25%, #f4f1e8 50%, #ede4d3 75%, #f4f1e8 100%);
+            background-size: 60px 60px;
+            position: relative;
+        }
+        
+        .vintage-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(circle at 20% 80%, rgba(139, 69, 19, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(139, 69, 19, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(139, 69, 19, 0.02) 0%, transparent 50%);
+        }
+        
+        /* Topographic lines */
+        .topo-lines {
+            background-image: 
+                radial-gradient(ellipse 800px 600px at 50% 50%, transparent 20%, rgba(139, 69, 19, 0.1) 21%, rgba(139, 69, 19, 0.1) 22%, transparent 23%),
+                radial-gradient(ellipse 600px 400px at 30% 70%, transparent 30%, rgba(139, 69, 19, 0.08) 31%, rgba(139, 69, 19, 0.08) 32%, transparent 33%),
+                radial-gradient(ellipse 400px 300px at 70% 30%, transparent 40%, rgba(139, 69, 19, 0.06) 41%, rgba(139, 69, 19, 0.06) 42%, transparent 43%);
+            animation: topoShift 30s ease-in-out infinite;
+        }
+        
+        @keyframes topoShift {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            33% { transform: translate(10px, -5px) rotate(0.5deg); }
+            66% { transform: translate(-5px, 10px) rotate(-0.3deg); }
+        }
+        
+        /* Compass rose animation */
+        .compass {
+            animation: compassSpin 20s linear infinite;
+        }
+        
+        @keyframes compassSpin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Vintage chart styling */
+        .vintage-chart {
+            background: rgba(244, 241, 232, 0.9);
+            border: 2px solid #8b4513;
+            box-shadow: 
+                inset 0 0 20px rgba(139, 69, 19, 0.1),
+                0 4px 15px rgba(139, 69, 19, 0.2);
+        }
+        
+        .vintage-chart::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            border: 1px solid rgba(139, 69, 19, 0.3);
+            pointer-events: none;
+        }
+        
+        /* Elevation bars */
+        .elevation-bar {
+            background: linear-gradient(to top, #8b4513, #d2691e, #daa520);
+            transform-origin: bottom;
+            animation: growElevation 2.5s ease-out forwards;
+            position: relative;
+        }
+        
+        .elevation-bar::after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #654321;
+        }
+        
+        @keyframes growElevation {
+            from { transform: scaleY(0); }
+            to { transform: scaleY(1); }
+        }
+        
+        /* Vintage line chart */
+        .survey-line {
+            stroke: #8b4513;
+            stroke-width: 2;
+            fill: none;
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: drawSurvey 3s ease-out forwards;
+        }
+        
+        @keyframes drawSurvey {
+            to { stroke-dashoffset: 0; }
+        }
+        
+        /* Typewriter with vintage feel */
+        .vintage-typing::after {
+            content: '|';
+            animation: vintageBlinkCursor 1.2s infinite;
+            color: #8b4513;
+        }
+        
+        @keyframes vintageBlinkCursor {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        
+        /* Hover effects */
+        .chart-panel:hover {
+            transform: translateY(-3px);
+            box-shadow: 
+                inset 0 0 20px rgba(139, 69, 19, 0.15),
+                0 8px 25px rgba(139, 69, 19, 0.3);
+        }
+        
+        /* Coordinate grid */
+        .coordinate-grid {
+            background-image: 
+                linear-gradient(rgba(139, 69, 19, 0.2) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(139, 69, 19, 0.2) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        
+        /* Vintage button styling */
+        .vintage-btn {
+            background: linear-gradient(145deg, #f4f1e8, #e6dcc6);
+            border: 2px solid #8b4513;
+            color: #654321;
+            box-shadow: 
+                0 4px 8px rgba(139, 69, 19, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
+        }
+        
+        .vintage-btn:hover {
+            background: linear-gradient(145deg, #e6dcc6, #d4c4a8);
+            transform: translateY(-1px);
+            box-shadow: 
+                0 6px 12px rgba(139, 69, 19, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
+        }
+        
+        /* Floating survey markers */
+        .survey-marker {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: #8b4513;
+            border: 2px solid #f4f1e8;
+            border-radius: 50%;
+            animation: surveyFloat 8s ease-in-out infinite;
+        }
+        
+        @keyframes surveyFloat {
+            0%, 100% { transform: translateY(0px) scale(1); opacity: 0.8; }
+            50% { transform: translateY(-15px) scale(1.1); opacity: 1; }
+        }
+        
+        .survey-marker:nth-child(2) { animation-delay: -2s; }
+        .survey-marker:nth-child(3) { animation-delay: -4s; }
+        .survey-marker:nth-child(4) { animation-delay: -6s; }
+    </style>
+</head>
+<body class="vintage-bg min-h-screen relative overflow-x-hidden">
+    
+    <!-- Topographic Background -->
+    <div class="topo-lines fixed inset-0 opacity-40 pointer-events-none"></div>
+    
+    <!-- Coordinate Grid Overlay -->
+    <div class="coordinate-grid fixed inset-0 opacity-20 pointer-events-none"></div>
+    
+    <!-- Survey Markers -->
+    <div class="fixed inset-0 pointer-events-none">
+        <div class="survey-marker" style="top: 15%; left: 12%;"></div>
+        <div class="survey-marker" style="top: 65%; left: 88%;"></div>
+        <div class="survey-marker" style="top: 35%; left: 78%;"></div>
+        <div class="survey-marker" style="top: 85%; left: 25%;"></div>
+    </div>
+    
+    <!-- Compass Rose -->
+    <div class="fixed top-8 right-8 w-16 h-16 opacity-30">
+        <svg class="compass w-full h-full" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="45" fill="none" stroke="#8b4513" stroke-width="2"/>
+            <path d="M50 10 L55 45 L50 50 L45 45 Z" fill="#8b4513"/>
+            <path d="M50 90 L45 55 L50 50 L55 55 Z" fill="#d2691e"/>
+            <path d="M10 50 L45 45 L50 50 L45 55 Z" fill="#d2691e"/>
+            <path d="M90 50 L55 55 L50 50 L55 45 Z" fill="#8b4513"/>
+            <text x="50" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#8b4513">N</text>
+        </svg>
+    </div>
+    
+    <!-- Corner Coordinates -->
+    <div class="fixed top-4 left-4 font-mono text-xs text-amber-800 opacity-60">
+        <div>40°42'46"N</div>
+        <div>74°00'22"W</div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="relative min-h-screen flex items-center justify-center px-8 py-16">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            
+            <!-- Left Content -->
+            <div class="space-y-8 relative z-10">
+                
+                <!-- Academic Header -->
+                <div class="border-l-4 border-blue-500 pl-6">
+                    <div class="font-mono text-sm text-gray-700 mb-2">CARTOGRAPHIC RESEARCH</div>
+                    <div class="font-mono text-xs text-gray-500">EST. MMXXIV</div>
+                </div>
+                
+                <!-- Main Title -->
+                <div class="space-y-6">
+                    <h1 class="text-6xl lg:text-7xl font-serif leading-tight text-amber-900">
+                        <span class="italic">Cartographic</span><br>
+                        <span class="font-semibold">Data</span><br>
+                        <span class="vintage-typing text-amber-700" id="typewriter">Visualization</span>
+                    </h1>
+                    
+                    <div class="max-w-lg">
+                        <p class="text-xl text-amber-800 font-serif leading-relaxed italic mb-4">
+                            "Transforming geographic datasets into compelling visual narratives through the marriage of traditional cartographic principles and modern analytical techniques."
+                        </p>
+                        <div class="text-sm font-mono text-amber-600">
+                            — Specializing in Interactive Mapping & Spatial Analysis
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Academic Credentials -->
+                <div class="bg-white/40 backdrop-blur-sm border-2 border-amber-700 rounded-none p-6 relative">
+                    <div class="absolute top-2 right-2 w-3 h-3 border-2 border-amber-700"></div>
+                    <div class="absolute bottom-2 left-2 w-3 h-3 border-2 border-amber-700"></div>
+                    
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="font-serif text-amber-900">Research Focus:</span>
+                            <span class="font-mono text-sm text-amber-700">Spatial Data Analysis</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-serif text-amber-900">Methodology:</span>
+                            <span class="font-mono text-sm text-amber-700">Quantitative Cartography</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-serif text-amber-900">Tools:</span>
+                            <span class="font-mono text-sm text-amber-700">GIS • D3.js • R • Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Action Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="vintage-btn px-8 py-4 font-serif font-semibold transition-all duration-300">
+                        View Research Portfolio
+                    </button>
+                    <button class="border-2 border-amber-700 bg-transparent hover:bg-amber-700/10 px-8 py-4 font-mono text-sm text-amber-800 transition-all duration-300">
+                        CURRICULUM_VITAE.pdf
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Right Visualizations -->
+            <div class="space-y-6 relative z-10">
+                
+                <!-- Elevation Profile Chart -->
+                <div class="chart-panel vintage-chart rounded-none p-6 transition-all duration-300 relative">
+                    <div class="flex justify-between items-center mb-6">
+                        <div>
+                            <h3 class="font-serif text-lg text-amber-900 mb-1">Elevation Profile Analysis</h3>
+                            <div class="font-mono text-xs text-amber-600">SURVEY_DATA_2024.csv</div>
+                        </div>
+                        <div class="w-3 h-3 bg-amber-700 rotate-45"></div>
+                    </div>
+                    
+                    <div class="flex items-end justify-between h-32 space-x-3 mb-4">
+                        <div class="elevation-bar w-6 rounded-t-sm" style="height: 65%; animation-delay: 0.3s;"></div>
+                        <div class="elevation-bar w-6 rounded-t-sm" style="height: 85%; animation-delay: 0.6s;"></div>
+                        <div class="elevation-bar w-6 rounded-t-sm" style="height: 45%; animation-delay: 0.9s;"></div>
+                        <div class="elevation-bar w-6 rounded-t-sm" style="height: 95%; animation-delay: 1.2s;"></div>
+                        <div class="elevation-bar w-6 rounded-t-sm" style="height: 70%; animation-delay: 1.5s;"></div>
+                        <div class="elevation-bar w-6 rounded-t-sm" style="height: 55%; animation-delay: 1.8s;"></div>
+                    </div>
+                    
+                    <div class="flex justify-between text-xs font-mono text-amber-600">
+                        <span>0km</span>
+                        <span>2km</span>
+                        <span>4km</span>
+                        <span>6km</span>
+                        <span>8km</span>
+                        <span>10km</span>
+                    </div>
+                </div>
+                
+                <!-- Survey Route Visualization -->
+                <div class="chart-panel vintage-chart rounded-none p-6 transition-all duration-300 relative">
+                    <div class="flex justify-between items-center mb-6">
+                        <div>
+                            <h3 class="font-serif text-lg text-amber-900 mb-1">Survey Route Mapping</h3>
+                            <div class="font-mono text-xs text-amber-600">FIELD_COORDINATES.geojson</div>
+                        </div>
+                        <div class="w-3 h-3 bg-amber-700 rotate-45"></div>
+                    </div>
+                    
+                    <svg width="100%" height="100" viewBox="0 0 300 100">
+                        <defs>
+                            <pattern id="mapPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+                                <rect width="20" height="20" fill="none" stroke="#d2691e" stroke-width="0.5" opacity="0.3"/>
+                            </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#mapPattern)"/>
+                        <path class="survey-line" d="M 20 70 Q 80 30 150 50 T 280 40"/>
+                        <circle cx="20" cy="70" r="3" fill="#8b4513"/>
+                        <circle cx="150" cy="50" r="3" fill="#d2691e"/>
+                        <circle cx="280" cy="40" r="3" fill="#daa520"/>
+                    </svg>
+                </div>
+                
+                <!-- Coordinate Reference System -->
+                <div class="chart-panel vintage-chart rounded-none p-6 transition-all duration-300 relative">
+                    <div class="flex justify-between items-center mb-6">
+                        <div>
+                            <h3 class="font-serif text-lg text-amber-900 mb-1">Coordinate System</h3>
+                            <div class="font-mono text-xs text-amber-600">WGS84_UTM_ZONE_18N</div>
+                        </div>
+                        <div class="w-3 h-3 bg-amber-700 rotate-45"></div>
+                    </div>
+                    
+                    <div class="space-y-3 font-mono text-sm">
+                        <div class="flex justify-between border-b border-amber-300 pb-2">
+                            <span class="text-amber-600">DATUM:</span>
+                            <span class="text-amber-800">WGS 1984</span>
+                        </div>
+                        <div class="flex justify-between border-b border-amber-300 pb-2">
+                            <span class="text-amber-600">PROJECTION:</span>
+                            <span class="text-amber-800">UTM Zone 18N</span>
+                        </div>
+                        <div class="flex justify-between border-b border-amber-300 pb-2">
+                            <span class="text-amber-600">UNITS:</span>
+                            <span class="text-amber-800">Meters</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-amber-600">ACCURACY:</span>
+                            <span class="text-amber-800 animate-pulse">±0.5m</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Academic typewriter effect
+        const academicTerms = ['Visualization', 'Cartography', 'Analysis', 'Research'];
+        let termIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        
+        function academicTypewriter() {
+            const current = academicTerms[termIndex];
+            const typewriterElement = document.getElementById('typewriter');
+            
+            if (isDeleting) {
+                typewriterElement.textContent = current.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typewriterElement.textContent = current.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            if (!isDeleting && charIndex === current.length) {
+                setTimeout(() => isDeleting = true, 3000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                termIndex = (termIndex + 1) % academicTerms.length;
+            }
+            
+            setTimeout(academicTypewriter, isDeleting ? 80 : 120);
+        }
+        
+        // Start typewriter after page load
+        setTimeout(academicTypewriter, 1500);
+        
+        // Enhanced hover effects for chart panels
+        document.querySelectorAll('.chart-panel').forEach(panel => {
+            panel.addEventListener('mouseenter', () => {
+                panel.style.transform = 'translateY(-3px) scale(1.01)';
+            });
+            
+            panel.addEventListener('mouseleave', () => {
+                panel.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+        
+        // Subtle coordinate animation
+        const coordElement = document.querySelector('.fixed.top-4.left-4');
+        if (coordElement) {
+            setInterval(() => {
+                const coords = coordElement.children;
+                const lat = coords[0];
+                const lng = coords[1];
+                
+                // Subtle coordinate drift
+                const latBase = 40 + (42 + Math.sin(Date.now() / 10000) * 0.1) / 60 + 46 / 3600;
+                const lngBase = 74 + (0 + Math.cos(Date.now() / 8000) * 0.1) / 60 + 22 / 3600;
+                
+                const latDeg = Math.floor(latBase);
+                const latMin = Math.floor((latBase - latDeg) * 60);
+                const latSec = Math.floor(((latBase - latDeg) * 60 - latMin) * 60);
+                
+                const lngDeg = Math.floor(lngBase);
+                const lngMin = Math.floor((lngBase - lngDeg) * 60);
+                const lngSec = Math.floor(((lngBase - lngDeg) * 60 - lngMin) * 60);
+                
+                lat.textContent = `${latDeg}°${latMin}'${latSec}"N`;
+                lng.textContent = `${lngDeg}°${lngMin}'${lngSec}"W`;
+            }, 5000);
+        }
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97747c4883cdc94a',t:'MTc1NjU1ODk3Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
